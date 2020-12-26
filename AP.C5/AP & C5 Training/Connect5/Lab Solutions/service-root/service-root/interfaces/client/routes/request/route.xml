@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Route xmlns="http://www.pilotfishtechnology.com/eipr/RouteSpec" debuggingTrace="false" debuggingTracePath="" logTransactionContent="true" transactionTimeToLive="300000">
+  <RouteMetadata />
+  <RoutingModule class="com.pilotfish.eip.modules.internal.NullRoutingModule" />
+  <Source name="System Unnamed">
+    <FormatProfile name="Relay (System Format)" />
+    <Listener class="com.pilotfish.eip.modules.file.DirectoryListener" name="client.request.Directory Listener">
+      <ModuleConfig>
+        <IS_TRIGGERABLE_LISTENER>false</IS_TRIGGERABLE_LISTENER>
+        <CLIAllowed>false</CLIAllowed>
+        <RESTART_ON_ERROR_TAG>false</RESTART_ON_ERROR_TAG>
+        <PollingInterval>5</PollingInterval>
+        <PollingDirectory>t:\in</PollingDirectory>
+        <FileNameRestriction />
+        <FileExtensionRestriction>xml</FileExtensionRestriction>
+        <UseFullFilePath>Disabled</UseFullFilePath>
+        <FullPathToFile />
+        <PostProcessOperation>Delete</PostProcessOperation>
+        <TargetDirectory />
+        <Tokenizers />
+        <SerializedTransactionsTag>250</SerializedTransactionsTag>
+        <SubFolderIterationTag>false</SubFolderIterationTag>
+        <SchedulerStartTag />
+        <SchedulerEndTag />
+      </ModuleConfig>
+    </Listener>
+  </Source>
+  <Target name="System Unnamed">
+    <FormatProfile name="Relay (System Format)" />
+    <Transport class="com.pilotfish.eip.modules.http.HttpPostTransport" name="client.request.* HTTP Post Transport" retries="1">
+      <ModuleConfig>
+        <TargetURL>http://localhost:8081/eip/http-post/webservice</TargetURL>
+        <UserName />
+        <AUTH_HOST_TAG />
+        <AUTH_PORT_TAG />
+        <Password />
+        <ResponseListener>client.response</ResponseListener>
+        <ResponseCodeHandling>Default</ResponseCodeHandling>
+        <Timeout>30000</Timeout>
+        <ResponseCodeList />
+        <ErrorOnConnectionFailure>true</ErrorOnConnectionFailure>
+        <FormElement />
+        <HTTPHeaders>[eip_pair:Content-Type:eip_name:text/xml;charset=UTF-8:eip_value]</HTTPHeaders>
+        <useProxy>false</useProxy>
+        <proxyHost>127.0.0.1</proxyHost>
+        <proxyPort>8080</proxyPort>
+        <proxyUsername />
+        <proxyPassword />
+        <UseCertificateAttribute>false</UseCertificateAttribute>
+        <KeyStoreFilePath />
+        <CertificateAttribute />
+        <KeyStoreFileType />
+        <KeyStoreFilePassword />
+        <TrustStoreFileType />
+        <UseCertificateAttribute>false</UseCertificateAttribute>
+        <TrustStoreFilePath />
+        <CertificateAttribute />
+        <TrustStoreFilePassword />
+        <ReadResponseStreamAsString>true</ReadResponseStreamAsString>
+      </ModuleConfig>
+    </Transport>
+  </Target>
+</Route>
+

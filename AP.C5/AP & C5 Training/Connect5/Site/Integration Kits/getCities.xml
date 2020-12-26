@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope 
+		xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope" 
+		xmlns:wsa="http://www.w3.org/2005/08/addressing"
+		xmlns:acord="http://www.ACORD.org/standards/PC_Surety/ACORD1/xml" 
+		xmlns:training="http://www.agencyport.com/connect/5/training" 
+		xmlns:intkit="http://www.agencyport.com/connect/5/integrationkit/v/1" >
+		
+	<soapenv:Header>
+		<wsa:From>
+			<wsa:Address>${FROM}</wsa:Address>
+		</wsa:From>
+		<wsa:Action>${ACTION}</wsa:Action>
+		<wsa:ReplyTo>
+			<wsa:Address>${REPLYTO}</wsa:Address>
+		</wsa:ReplyTo>
+		<wsa:MessageID>${UUID}</wsa:MessageID>
+		<wsa:To>${TO}</wsa:To>
+	</soapenv:Header>
+	<soapenv:Body>
+		<training:GetCitiesRq>
+			<acord:StateProvCd>${STATE_ABBR}</acord:StateProvCd>
+		</training:GetCitiesRq>
+	</soapenv:Body>
+</soapenv:Envelope>

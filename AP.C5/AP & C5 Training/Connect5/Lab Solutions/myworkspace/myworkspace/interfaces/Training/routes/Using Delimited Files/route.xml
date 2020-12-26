@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Route xmlns="http://www.pilotfishtechnology.com/eipr/RouteSpec" debuggingTrace="false" debuggingTracePath="" logTransactionContent="true" transactionTimeToLive="300000">
+  <RouteMetadata />
+  <RoutingModule class="com.pilotfish.eip.modules.internal.NullRoutingModule" />
+  <Source name="System Unnamed">
+    <FormatProfile name="Delimited People to XML" />
+    <Listener class="com.pilotfish.eip.modules.file.DirectoryListener" name="Training.BASIC.Directory Listener">
+      <ModuleConfig>
+        <IS_TRIGGERABLE_LISTENER>false</IS_TRIGGERABLE_LISTENER>
+        <CLIAllowed>false</CLIAllowed>
+        <RESTART_ON_ERROR_TAG>false</RESTART_ON_ERROR_TAG>
+        <PollingInterval>5</PollingInterval>
+        <PollingDirectory>t:\in</PollingDirectory>
+        <FileNameRestriction />
+        <FileExtensionRestriction>txt</FileExtensionRestriction>
+        <UseFullFilePath>Disabled</UseFullFilePath>
+        <FullPathToFile />
+        <PostProcessOperation>Delete</PostProcessOperation>
+        <TargetDirectory />
+        <Tokenizers />
+        <SerializedTransactionsTag>250</SerializedTransactionsTag>
+        <SubFolderIterationTag>false</SubFolderIterationTag>
+        <SchedulerStartTag />
+        <SchedulerEndTag />
+      </ModuleConfig>
+    </Listener>
+  </Source>
+  <Target name="System Unnamed">
+    <FormatProfile name="Delimited People to XML" />
+    <Transport class="com.pilotfish.eip.modules.internal.EIPTransport" name="Training.BASIC.Directory Transport" retries="1">
+      <ModuleConfig>
+        <ServiceName />
+        <CallbackListenerName />
+        <Timeout>60</Timeout>
+      </ModuleConfig>
+    </Transport>
+  </Target>
+</Route>
+

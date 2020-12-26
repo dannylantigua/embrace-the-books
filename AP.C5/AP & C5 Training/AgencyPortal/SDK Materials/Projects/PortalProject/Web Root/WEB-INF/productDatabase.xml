@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://reference.agencyport.com/schemas/5.0/product/productDefinitions.xsd">
+<!-- TESTING -->
+<!-- 
+	<product type="HOME" version="5.0.0.0" path="homeowners" title="Homeowners" id="N1">
+		<artifact type="propertyFile" resourceId="homeowners.properties" title="Properties" id="N2"/>
+		<artifact type="behavior" resourceId="endorseHomeownersBehaviors.xml" title="Dynamic Behaviors for endorsements" id="N3"/>
+		<artifact type="behavior" resourceId="homeownersBehaviors.xml" title="Dynamic Behaviors for new business" id="N4"/>
+		<artifact type="behavior" resourceId="homeownersBehaviorsQuickQuote.xml" title="Dynamic Behaviors for quick quote" id="N5"/>
+		<artifact type="optionList" resourceId="homeOwnerCodeListRef.xml" description="Homeowners Option Lists" title="Homeowners Option Lists" id="N6"/>
+		<artifact type="optionList" resourceId="homeOwnerPDFCodeListRef.xml" description="Homeowners Option Lists for PDFs" title="Homeowners Option Lists for PDFs" id="N7"/>
+		<artifact type="tdf" resourceId="homeowners.xml" title="New Business Application" id="N8"/>
+		<artifact type="tdf" resourceId="endorseHomeowners.xml" title="Endorsement Application" id="N9"/>
+		<artifact type="tdf" resourceId="homeownersQuickQuote.xml" title="Quick Quote Application" id="N10"/>
+		<artifact type="tdf" resourceId="renewHomeowners.xml" title="Renewal Application" id="N11"/>
+		<artifact type="pageLibrary" resourceId="homeownersCommons.xml" title="Homeowners Common Page Library" id="N12"/>
+		<artifact type="view" resourceId="homeownersViews.xml" title="Views" id="N13"/>
+		<artifact type="pdfLayout" resourceId="ACORD_80_200412_LAYOUT.xml" title="Acord 80 PDF layout Dec 2004" id="N14"/>
+		<artifact type="pdfLayout" resourceId="ACORD_80_200801_LAYOUT.xml" title="Acord 80 PDF layout Jan 2008" id="N15"/>
+		<artifact type="pdf" resourceId="acord80_200412.pdf" title="ACORD_80_200412_FORM" description="Acord 80 12-2004 PDF" id="N16"/>
+		<artifact type="pdf" resourceId="acord80_200801.pdf" title="ACORD_80_200801_FORM" description="Acord 80 01-2008 PDF" id="N17"/>
+		<artifact type="xarcRule" resourceId="agencyHOApplicantInformationPage.xml" title="Homeowners Rules" description="Homeowners Rules" id="N19"/>
+		<artifact type="acordWorkItemMap" resourceId="homeowners_workitem_map.xml" title="Acord to work item mapping for homwowners" description="Acord to work item mapping for homeowners" id="N20"/>
+		<artifact type="optionList" resourceId="homeOwnerFNOLCodeListRef.xml" description="Homeowners FNOL Option Lists" title="Homeowners FNOL Codes" id="N22"/>
+		<artifact type="acordWorkItemMap" resourceId="home_fnol_workitem_map.xml" description="Acord to work item mapping for FNOL" title="Acord to work item mapping for FNOL" id="N23"/>
+		<artifact type="pdf" resourceId="Acord1.pdf" description="Home owners FNOL Acord PDF." title="ACORD1_FORM" id="N27"/>
+		<artifact type="pdfLayout" resourceId="ACORD_1_LAYOUT.xml" title="Acord 1 PDF layout Dec 2004" id="N28"/>
+		<artifact resourceId="homeTransformers.xml" type="transformer" description="" title="Home Owners Transformations" />
+		<dependency version="5.0.0.0"  productRefType="shared" id="N29"/>
+	</product>
+ -->	
+	<!-- 
+		<artifact type="tdf" resourceId="homeownersFNOL.xml" title="FNOL Claims Application" id="N21"/>
+	 -->
+	<!-- 
+		<artifact type="pageLibrary" resourceId="homeownersFNOLcommons.xml" title="Homeowners FNOL Common Page Library" id="N24"/>
+		<artifact type="view" resourceId="homeOwnersFNOLViews.xml" title="Views" id="N25"/>
+		<artifact type="behavior" resourceId="homeownersFNOLBehaviors.xml" title="FNOL Behaviors" id="N26"/>
+	 -->
+<!-- 
+	<product type="AUTOP" version="5.0.0.0" path="persauto" title="Personal Auto" id="N30">
+		<artifact type="propertyFile" resourceId="persauto.properties" title="Properties" id="N31"/>
+		<artifact type="behavior" resourceId="persautoBehaviors.xml" title="Dynamic Behaviors for new business" id="N32"/>
+		<artifact type="optionList" resourceId="persautoCodeListRef.xml" description="Persauto Option Lists" title="Persauto Option Lists" id="N33"/>
+		<artifact type="dynamicListTemplate" resourceId="persautoDynamicListTemplates.xml" description="Persauto Dynamic Lists" title="Persauto Dynamic Lists" id="N34"/>
+		<artifact type="optionList" resourceId="persautoPDFCodeListRef.xml" description="Persauto Option Lists for PDFs" title="Persauto Option Lists for PDFs" id="N35"/>
+		<artifact type="tdf" resourceId="persauto.xml" title="Personal Auto New Business Application" id="N36"/>
+		<artifact type="tdf" resourceId="endorsePersauto.xml" title="Personal Auto Endorsement" id="N37"/>
+		<artifact type="tdf" resourceId="renewPersauto.xml" title="Personal Auto Renewal" id="N38"/>
+		<artifact type="tdf" resourceId="persautoQuickQuote.xml" title="Personal Auto Quick Quote Application" id="N39"/>
+		<artifact type="pageLibrary" resourceId="persautoCommons.xml" title="PersAuto Common Page Library" id="N40"/>
+		<artifact type="view" resourceId="persautoViews.xml" title="Personal Auto Views" id="N41"/>
+		<artifact type="pdfLayout" resourceId="ACORD_90MA_LAYOUT.xml" title="Acord 90 Layout" id="N42"/>
+		<artifact type="pdf" resourceId="acord90MA.pdf" title="ACORD_90_MA_FORM" description="Acord 90 MA PDF" id="N43"/>
+		<artifact type="xarcRule" resourceId="agencyApplicantInformationPage.xml" title="Personal Auto Rules" description="Personal Auto Rules" id="N44"/>
+		<artifact type="acordWorkItemMap" resourceId="persauto_workitem_map.xml" title="Acord to work item mapping for PersAuto" description="Acord to work item mapping for persauto" id="N45"/>
+		<artifact type="view" resourceId="personalAutoFNOLViews.xml" title="Views" id="N46"/>
+		<artifact type="acordWorkItemMap" resourceId="auto_fnol_workitem_map.xml" description="Acord to work item mapping for FNOL" title="Acord to work item mapping for FNOL" id="N47"/>
+		<artifact type="pageLibrary" resourceId="persautoFNOLCommons.xml" title="Pers Auto FNOL Common Page Library" id="N49"/>
+		<artifact type="optionList" resourceId="personalAutoFNOLCodeListRef.xml" title="Option Lists" id="N50"/>
+		<artifact type="behavior" resourceId="personalAutoFNOLBehaviors.xml" description="FNOL Behaviors" title="FNOL Behaviors" id="N51"/>
+		<artifact type="sfh" resourceId="com.agencyport.persauto.fnol.custom.OtherVehiclesDamagedOwnerHelper" title="FNOL Auto Property SFH" id="N52"/>
+		<artifact type="sfh" resourceId="com.agencyport.persauto.fnol.custom.OtherPropertyDamagedHelper" title="FNOL Auto Property SFH" id="N53"/>
+		<artifact type="sfh" resourceId="com.agencyport.persauto.fnol.custom.InsuredContactPhoneInfoHelper" title="FNOL Auto Property SFH" id="N54"/>
+		<artifact type="sfh" resourceId="com.agencyport.persauto.fnol.custom.OtherVehiclesDamagedDriverHelper" title="FNOL Auto Property SFH" id="N55"/>
+		<artifact type="sfh" resourceId="com.agencyport.persauto.fnol.custom.OtherVehicleOwnerPhoneInfoHelper" title="FNOL Auto Property SFH" id="N56"/>
+		<artifact type="sfh" resourceId="com.agencyport.persauto.fnol.custom.OtherVehicleDriverPhoneInfoHelper" title="FNOL Auto Property SFH" id="N57"/>
+		<artifact type="pdf" resourceId="Acord2.pdf" description="Acord2" title="Acord2" id="N58"/>
+		<artifact type="pdfLayout" resourceId="ACORD_2_LAYOUT.xml" title="ACORD2LAYOUT" id="N59"/>
+		<artifact resourceId="persAuto_transformers.xml" type="transformer" description="" title="Personal Auto Transformations" id="N6001"/>
+		<dependency version="5.0.0.0"  productRefType="shared" id="N60"/>
+	</product>
+	<product type="WORK" version="5.0.0.0" path="workerscomp" title="Workers Compensation" id="N61">
+    		<artifact type="tdf" resourceId="quickquoteworkerscomp.xml" title="Workers Comp Quick Quote" id="N969457" />
+		<artifact type="tdf" resourceId="workerscomp.xml" title="New Business Application" id="N62"/>
+		<artifact type="tdf" resourceId="endorseworkerscomp.xml" title="Workers Comp Endorsement" id="N63"/>
+		<artifact type="tdf" resourceId="renewworkerscomp.xml" title="Workers Comp Renewal" id="N64"/>
+		<artifact type="pageLibrary" resourceId="workerscompCommons.xml" title="Workers Comp Common Page Library" id="N65"/>
+		<artifact type="propertyFile" resourceId="workerscomp.properties" title="Properties" id="N66"/>
+		<artifact type="optionList" resourceId="workersCompCodeListRef.xml" description="Workers Comp Code Lists" title="Workers Comp Code Lists" id="N67"/>
+		<artifact type="view" resourceId="workersCompViews.xml" title="Workers Comp Views" id="N68"/>
+		<artifact type="behavior" resourceId="workersCompBehavior.xml" title="Dynamic Behaviors for new business" id="N70"/>
+		<artifact type="pdfLayout" resourceId="ACORD_130_LAYOUT.xml" title="Acord 130 PDF layout" id="N72"/>
+		<artifact type="pdf" resourceId="Acord130.pdf" title="Acord 130" description="Acord 130" id="N73"/>
+		<artifact type="pdf" resourceId="Acord130AddlStateWorksheet.pdf" title="Acord 130" description="Acord 130" id="N74"/>
+		<artifact type="pdfLayout" resourceId="ACORD_130FL_LAYOUT.xml" title="Acord 130 PDF FL layout" id="N75"/>
+		<artifact type="pdf" resourceId="Acord130FL.pdf" title="Acord 130" description="Acord 130 FL" id="N76"/>
+		<artifact type="acordWorkItemMap" resourceId="workerscomp.xml" title="Acord to work item mapping for Workers Comp" description="Acord to work item mapping for Workers Comp" id="N77"/>
+		<artifact type="xarcRule" resourceId="wcRatingLocationRules.xml" title="WC Location Validations" description="WC Location Validations" id="N78"/>
+		<artifact resourceId="wc_transformers.xml" type="transformer" description="" title="Worker's Compensation Transformations" id="N79"/>
+		<artifact type="pageLibrary" resourceId="wcFNOLCommons.xml" title="WC Common Page Library" id="N80"/>
+		<artifact type="tdf" resourceId="workersCompFNOL.xml" title="FNOL Application" id="N81"/>
+		<artifact type="pdf" resourceId="Acord4.pdf" description="Acord 4 PDF" title="ACORD_4_FORM" id="N82"/>
+		<artifact type="pdfLayout" resourceId="ACORD_4_LAYOUT.xml" description="Acord 4 PDF layout" id="N83"/>
+		<artifact type="acordWorkItemMap" resourceId="workersCompFNOL.xml" description="Acord to work item mapping for Workers Comp" title="Acord to work item mapping for Workers Comp" id="N84"/>
+		<dependency version="5.0.0.0"  productRefType="shared" id="N85"/>
+		<dependency version="5.0.0.0"  productRefType="commercial" id="N86"/>
+	</product>
+ -->
+	<product type="shared" shared="true" version="5.0.0.0" path="shared" title="Shared Product" id="N86">
+		<artifact type="propertyFile" resourceId="shared.properties" title="Properties" id="N87" />
+		<artifact type="optionList" resourceId="codeListRef.xml" description="Shared Option Lists" title="Shared Option Lists" id="N88" />
+		<artifact type="optionList" resourceId="acordCodeListRef.xml" description="ACORD Code Lists" title="ACORD Code Lists" id="N89" />
+		<artifact type="optionList" resourceId="persLinesCodeListRef.xml" description="Personal Lines Shared Code Lists" title="Personal Lines Shared Code Lists" id="N90" />
+		<artifact type="view" resourceId="commonViews.xml" title="Views" id="N91" />
+		<artifact type="pdfLayout" resourceId="POLICY_CHANGE_LAYOUT.xml" title="Policy Change PDF layout" id="N92" />
+		<artifact type="pdf" resourceId="Acord_Overflow.pdf" title="ACORD_OVERFLOW" description="Overflow PDF" id="N93" />
+		<artifact type="pdf" resourceId="PolicyChangeRequest.pdf" title="POLICY_CHANGE_FORM" description="Policy Change PDF" id="N94" />
+		<artifact type="pdf" resourceId="PolicyChangeRequest_Questions.pdf" title="POLICY_CHANGE_QUESTION_FORM" description="Policy Change Questions PDF" id="N95" />
+		<artifact type="pdf" resourceId="PolicyChangeRequest_Remarks.pdf" title="POLICY_CHANGE_REMARK_FORM" description="Policy Change Remarks PDF" id="N96" />
+		<artifact type="dynamicListTemplate" resourceId="dynamicListTemplates.xml" description="Shared Dynamic Lists" title="Shared Dynamic Lists" id="N97" />
+		<artifact type="workItemAssistant" resourceId="workitemassistant.xml" title="Shared work item assistant" description="Shared work item assistant" id="N98" />
+		<artifact resourceId="shared_transformers.xml" type="transformer" description="" title="ACORD Standard Transformations" id="N99" />
+		<artifact type="workListDefinition" resourceId="worklist.xml" title="Work Lists" description="Standard Work Lists" id="N100" />
+		<artifact type="workListDefinition" resourceId="accountWorklist.xml" title="Account Work Lists" description="Account Work Lists" id="N102" />
+		<artifact type="workItemStatusDefinition" resourceId="workItemStatus.xml" title="Work Item Status Codes" description="Work Item Status Codes" id="N521" />
+		<artifact type="menuDefinition" resourceId="menu.xml" title="Main Menus" description="Main Menus" id="N103" />
+		<artifact type="workItemActionDefinition" resourceId="workItemAction.xml" title="Work Item Actions" description="Standard Work Item Actions" id="N520" />
+	</product>
+	<product type="commercial" title="Commercial Shared" shared="true" version="5.0.0.0" path="commercial" description="Commercial Lines Product" id="N104">
+		<artifact type="propertyFile" resourceId="commercial.properties" title="Properties" id="N105" />
+		<artifact type="optionList" resourceId="applInfoCodeListRef.xml" title="Option Lists" id="N106" />
+		<artifact type="optionList" resourceId="commlPropCodeListRef.xml" description="Commercial PropertyOption Lists" title="Commercial Property Option Lists" id="N323" />
+		<artifact type="dynamicListTemplate" resourceId="dynamicListTemplates.xml" description="Dynamic Lists" title="Dynamic Lists" id="N107" />
+		<artifact type="pageLibrary" resourceId="125Commons.xml" title="125 Commons Page Library" id="N108" />
+		<artifact type="pageLibrary" resourceId="CommlCommons.xml" title="Commercial Commons Page Library" id="N109" />
+		<artifact type="pageLibrary" resourceId="endorse125Commons.xml" title="125 Commons Page Library" id="N110" />
+		<artifact type="pageLibrary" resourceId="premisesInformationCommons.xml" title="Premises Commons Page Library" id="N111" />
+		<artifact type="view" resourceId="applInformationViews.xml" title="Applicant Info Views" id="N112" />
+		<artifact type="view" resourceId="otherOrPriorPolicyViews.xml" title="Other Prior Policy Views" id="N113" />
+		<artifact type="view" resourceId="commonCommlViews.xml" title="Common Commercial Views" id="N4614" />
+		<artifact type="pdfLayout" resourceId="ACORD_125_LAYOUT.xml" title="Acord 125 PDF layout" id="N114" />
+		<artifact type="pdf" resourceId="Acord125.pdf" title="ACORD_125_FORM" description="Acord 125 PDF" id="N115" />
+		<artifact type="pdfLayout" resourceId="ACORD_139_LAYOUT.xml" title="Acord 139 PDF layout" id="N116" />
+		<artifact type="pdf" resourceId="Acord139.pdf" title="ACORD_139_FORM" description="Acord 139 PDF" id="N117" />
+		<dependency version="5.0.0.0" productRefType="shared" id="N118" />
+	</product>
+<!-- 
+	<product type="BOP" version="5.0.0.0" title="Business Owners" path="bop" description="Business Owners Insurance Policy" id="N116">
+		<artifact type="propertyFile" resourceId="bop.properties" title="Properties" id="N117"/>
+		<artifact type="tdf" resourceId="bop.xml" title="New Business Owners Application" id="N118"/>
+		<artifact type="tdf" resourceId="bopQuickQuote.xml" title="New Business Owners Quick Quote" id="N119"/>
+		<artifact type="tdf" resourceId="endorseBop.xml" title="Business Owners Endorsement" id="N120"/>
+		<artifact type="tdf" resourceId="renewalBop.xml" title="Business Owners Renewal" id="N121"/>
+		<artifact type="pageLibrary" resourceId="bopCommons.xml" title="Business Owners Common Page Library" id="N122"/>
+		<artifact type="optionList" resourceId="bopCodeListRef.xml" description="Business Owners Option Lists" title="Business Owners Option Lists" id="N123"/>
+		<artifact type="optionList" resourceId="bopLookupListRef.xml" description="Business Owners Lookup Lists" title="Business Owners Lookup Lists" id="N124"/>
+		<artifact type="view" resourceId="bopViews.xml" title="Views" id="N125"/>
+		<artifact type="behavior" resourceId="bopBehavior.xml" title="Dynamic Behaviors for BOP" id="N126"/>
+		<artifact type="behavior" resourceId="restTavBeh.xml" title="Dynamic Behaviors for BOP Restaurant Tavern" id="N127"/>
+		<artifact type="pdfLayout" resourceId="ACORD_160_LAYOUT.xml" title="Acord 160 PDF Layout" id="N128"/>
+		<artifact type="pdfLayout" resourceId="ACORD_185_LAYOUT.xml" title="Acord 185 PDF Layout" id="N129"/>
+		<artifact type="pdfLayout" resourceId="ACORD_186_LAYOUT.xml" title="Acord 186 PDF Layout" id="N130"/>
+		<artifact type="pdfLayout" resourceId="ACORD_187_LAYOUT.xml" title="Acord 187 PDF Layout" id="N131"/>
+		<artifact type="pdf" resourceId="Acord160.pdf" title="ACORD_160_FORM" description="Acord 160 08-2006 PDF" id="N132"/>
+		<artifact type="pdf" resourceId="Acord185.pdf" title="ACORD_185_FORM" description="Acord 185 07-2005 PDF" id="N133"/>
+		<artifact type="pdf" resourceId="Acord186.pdf" title="ACORD_186_FORM" description="Acord 186 09-2001 PDF" id="N134"/>
+		<artifact type="pdf" resourceId="Acord187.pdf" title="ACORD_187_FORM" description="Acord 187 03-1998 PDF" id="N135"/>
+		<artifact type="sfh" resourceId="com.agencyport.bop.custom.BOPBuildingHelper" title="Building Helper SFH" id="N136"/>
+		<artifact type="sfh" resourceId="com.agencyport.bop.custom.PersAdvertisingInjuryHelper" title="Pers Advertising Injury Helper SFH" id="N137"/>
+		<artifact type="sfh" resourceId="com.agencyport.bop.custom.PremisesCoveragesHelper" title="Premises Coverages Helper SFH" id="N138"/>
+		<artifact type="sfh" resourceId="com.agencyport.bop.custom.OccurrenceMultiplierHelper" title="Occurrence Multiplier Helper SFH" id="N139"/>
+		<artifact type="sfh" resourceId="com.agencyport.bop.custom.NamedPerilHelper" title="Named Peril Helper SFH" id="N140"/>
+		<artifact type="sfh" resourceId="com.agencyport.bop.custom.HiredNonOwnedHelper" title="Hired Non Owned Helper SFH" id="N141"/>
+		<artifact type="sfh" resourceId="com.agencyport.bop.custom.BOPAdditionalInterestHelper" title="BOP Additional Interest Helper SFH" id="N142"/>
+		<artifact type="sfh" resourceId="com.agencyport.bop.custom.BlanketInfoHelper" title="Blanket Info Helper SFH" id="N143"/>
+		<artifact type="acordWorkItemMap" resourceId="bop_workitem_map.xml" title="Acord to work item mapping for BOP" description="Acord to work item mapping for BOP" id="N144"/>
+		<artifact resourceId="bopApplicantInfo.xml" type="xarcRule" description="" title="BOP Rules" id="N145"/>
+		<artifact resourceId="bop_transformers.xml" type="transformer" description="" title="BOP Transformations" id="N6002"/>
+		<dependency version="5.0.0.0"  productRefType="shared" id="N146"/>
+		<dependency version="5.0.0.0"  productRefType="commercial" id="N147"/>
+	</product>
+ -->
+ <!-- 
+	<product type="AUTOB" version="5.0.0.0" title="Commercial Auto" path="commlAuto" description="Commercial Auto" id="N148">
+		<artifact type="propertyFile" resourceId="commlAuto.properties" title="Properties" id="N149"/>
+		<artifact type="tdf" resourceId="commlAuto.xml" title="New Commercial Auto Application" id="N150"/>
+    	<artifact type="tdf" resourceId="quickQuoteCommlAuto.xml" title="Commercial Auto Quick Quote" id="N1675657019" />
+		<artifact type="tdf" resourceId="endorseCommlAuto.xml" title="Commercial Auto Endorsement" id="N151"/>
+		<artifact type="tdf" resourceId="renewalCommlAuto.xml" title="Commercial Auto Renewal" id="N152"/>
+		<artifact type="pageLibrary" resourceId="commlAutoCommons.xml" title="Commercial Auto Page Library" id="N153"/>
+		<artifact type="optionList" resourceId="commlAutoCodeListRef.xml" title="Commercial Auto Code List" id="N154"/>
+		<artifact type="optionList" resourceId="commlAutoLookupList.xml" title="Commercial Auto Lookup List" id="N155"/>
+		<artifact type="dynamicListTemplate" resourceId="commlAutoDynamicListTemplates.xml" title="Commercial Auto Dynamic Code List" id="N156"/>
+		<artifact type="behavior" resourceId="vehicleCoverageBehavior.xml" title="Vehicle Coverage Specific Behaviors for Commercial Auto" id="N157"/>
+		<artifact type="behavior" resourceId="noFaultCoverageBehavior.xml" title="No Fault Coverage Specific Behaviors for Commercial Auto" id="N158"/>
+		<artifact type="behavior" resourceId="optionalCoverageBehavior.xml" title="Optional Coverage Behaviors for Commercial Auto" id="N159"/>
+		<artifact type="behavior" resourceId="commlAutoBehavior.xml" title="Miscellaneous Behaviors for Commercial Auto" id="N160"/>
+		<artifact type="view" resourceId="commlAutoViews.xml" title="Views" id="N161"/>
+		<artifact resourceId="commlAutoTransformers.xml" type="transformer" title="Commercial Auto Transformations" />
+		<artifact type="pdfLayout" resourceId="ACORD_137IL_LAYOUT.xml" title="Acord 137 IL PDF layout" id="N170"/>
+		<artifact type="pdf" resourceId="Acord137IL.pdf" title="ACORD_137IL_FORM" description="Acord 137 PDF" id="N171"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137KS_LAYOUT.xml" title="Acord 137 KS PDF layout" id="N172"/>
+		<artifact type="pdf" resourceId="Acord137KS.pdf" title="ACORD_137KS_FORM" description="Acord 137 PDF" id="N173"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137DC_LAYOUT.xml" title="Acord 137 DC PDF layout" id="N174"/>
+		<artifact type="pdf" resourceId="Acord137DC.pdf" title="ACORD_137DC_FORM" description="Acord 137 PDF" id="N175"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137DE_LAYOUT.xml" title="Acord 137 DE PDF layout" id="N176"/>
+		<artifact type="pdf" resourceId="Acord137DE.pdf" title="ACORD_137DE_FORM" description="Acord 137 PDF" id="N177"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137MD_LAYOUT.xml" title="Acord 137 MD PDF layout" id="N178"/>
+		<artifact type="pdf" resourceId="Acord137MD.pdf" title="ACORD_137MD_FORM" description="Acord 137 PDF" id="N179"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137NC_LAYOUT.xml" title="Acord 137 NC PDF layout" id="N180"/>
+		<artifact type="pdf" resourceId="Acord137NC.pdf" title="ACORD_137NC_FORM" description="Acord 137 PDF" id="N181"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137OH_LAYOUT.xml" title="Acord 137 OH PDF layout" id="N182"/>
+		<artifact type="pdf" resourceId="Acord137OH.pdf" title="ACORD_137OH_FORM" description="Acord 137 PDF" id="N183"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137AL_LAYOUT.xml" title="Acord 137 AL PDF layout" id="N184"/>
+		<artifact type="pdf" resourceId="Acord137AL.pdf" title="ACORD_137AL_FORM" description="Acord 137 PDF" id="N185"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137AR_LAYOUT.xml" title="Acord 137 AR PDF layout" id="N186"/>
+		<artifact type="pdf" resourceId="Acord137AR.pdf" title="ACORD_137AR_FORM" description="Acord 137 PDF" id="N187"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137AZ_LAYOUT.xml" title="Acord 137 AZ PDF layout" id="N188"/>
+		<artifact type="pdf" resourceId="Acord137AZ.pdf" title="ACORD_137AZ_FORM" description="Acord 137 PDF" id="N189"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137CO_LAYOUT.xml" title="Acord 137 CO PDF layout" id="N190"/>
+		<artifact type="pdf" resourceId="Acord137CO.pdf" title="ACORD_137CO_FORM" description="Acord 137 PDF" id="N191"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137CT_LAYOUT.xml" title="Acord 137 CT PDF layout" id="N192"/>
+		<artifact type="pdf" resourceId="Acord137CT.pdf" title="ACORD_137CT_FORM" description="Acord 137 PDF" id="N193"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137GA_LAYOUT.xml" title="Acord 137 GA PDF layout" id="N194"/>
+		<artifact type="pdf" resourceId="Acord137GA.pdf" title="ACORD_137GA_FORM" description="Acord 137 PDF" id="N195"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137IA_LAYOUT.xml" title="Acord 137 IA PDF layout" id="N196"/>
+		<artifact type="pdf" resourceId="Acord137IA.pdf" title="ACORD_137IA_FORM" description="Acord 137 PDF" id="N197"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137ID_LAYOUT.xml" title="Acord 137 ID PDF layout" id="N198"/>
+		<artifact type="pdf" resourceId="Acord137ID.pdf" title="ACORD_137ID_FORM" description="Acord 137 PDF" id="N199"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137IN_LAYOUT.xml" title="Acord 137 IN PDF layout" id="N200"/>
+		<artifact type="pdf" resourceId="Acord137IN.pdf" title="ACORD_137IN_FORM" description="Acord 137 PDF" id="N201"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137KY_LAYOUT.xml" title="Acord 137 KY PDF layout" id="N202"/>
+		<artifact type="pdf" resourceId="Acord137KY.pdf" title="ACORD_137KY_FORM" description="Acord 137 PDF" id="N203"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137ME_LAYOUT.xml" title="Acord 137 ME PDF layout" id="N204"/>
+		<artifact type="pdf" resourceId="Acord137ME.pdf" title="ACORD_137ME_FORM" description="Acord 137 PDF" id="N205"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137MN_LAYOUT.xml" title="Acord 137 MN PDF layout" id="N206"/>
+		<artifact type="pdf" resourceId="Acord137MN.pdf" title="ACORD_137MN_FORM" description="Acord 137 PDF" id="N207"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137MO_LAYOUT.xml" title="Acord 137 MO PDF layout" id="N208"/>
+		<artifact type="pdf" resourceId="Acord137MO.pdf" title="ACORD_137MO_FORM" description="Acord 137 PDF" id="N209"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137MS_LAYOUT.xml" title="Acord 137 MS PDF layout" id="N210"/>
+		<artifact type="pdf" resourceId="Acord137MS.pdf" title="ACORD_137MS_FORM" description="Acord 137 PDF" id="N211"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137MT_LAYOUT.xml" title="Acord 137 MT PDF layout" id="N212"/>
+		<artifact type="pdf" resourceId="Acord137MT.pdf" title="ACORD_137MT_FORM" description="Acord 137 PDF" id="N213"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137ND_LAYOUT.xml" title="Acord 137 ND PDF layout" id="N214"/>
+		<artifact type="pdf" resourceId="Acord137ND.pdf" title="ACORD_137ND_FORM" description="Acord 137 PDF" id="N215"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137NE_LAYOUT.xml" title="Acord 137 NE PDF layout" id="N216"/>
+		<artifact type="pdf" resourceId="Acord137NE.pdf" title="ACORD_137NE_FORM" description="Acord 137 PDF" id="N217"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137NH_LAYOUT.xml" title="Acord 137 NH PDF layout" id="N218"/>
+		<artifact type="pdf" resourceId="Acord137NH.pdf" title="ACORD_137NH_FORM" description="Acord 137 PDF" id="N219"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137NM_LAYOUT.xml" title="Acord 137 NM PDF layout" id="N220"/>
+		<artifact type="pdf" resourceId="Acord137NM.pdf" title="ACORD_137NM_FORM" description="Acord 137 PDF" id="N221"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137NY_LAYOUT.xml" title="Acord 137 NY PDF layout" id="N222"/>
+		<artifact type="pdf" resourceId="Acord137NY.pdf" title="ACORD_137NY_FORM" description="Acord 137 PDF" id="N223"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137OK_LAYOUT.xml" title="Acord 137 OK PDF layout" id="N224"/>
+		<artifact type="pdf" resourceId="Acord137OK.pdf" title="ACORD_137OK_FORM" description="Acord 137 PDF" id="N225"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137OR_LAYOUT.xml" title="Acord 137 OR PDF layout" id="N226"/>
+		<artifact type="pdf" resourceId="Acord137OR.pdf" title="ACORD_137OR_FORM" description="Acord 137 PDF" id="N227"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137PA_LAYOUT.xml" title="Acord 137 PA PDF layout" id="N228"/>
+		<artifact type="pdf" resourceId="Acord137PA.pdf" title="ACORD_137PA_FORM" description="Acord 137 PDF" id="N229"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137SC_LAYOUT.xml" title="Acord 137 SC PDF layout" id="N230"/>
+		<artifact type="pdf" resourceId="Acord137SC.pdf" title="ACORD_137SC_FORM" description="Acord 137 PDF" id="N231"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137SD_LAYOUT.xml" title="Acord 137 SD PDF layout" id="N232"/>
+		<artifact type="pdf" resourceId="Acord137SD.pdf" title="ACORD_137SD_FORM" description="Acord 137 PDF" id="N233"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137TN_LAYOUT.xml" title="Acord 137 TN PDF layout" id="N234"/>
+		<artifact type="pdf" resourceId="Acord137TN.pdf" title="ACORD_137TN_FORM" description="Acord 137 PDF" id="N235"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137TX_LAYOUT.xml" title="Acord 137 TX PDF layout" id="N236"/>
+		<artifact type="pdf" resourceId="Acord137TX.pdf" title="ACORD_137TX_FORM" description="Acord 137 PDF" id="N237"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137UT_LAYOUT.xml" title="Acord 137 UT PDF layout" id="N238"/>
+		<artifact type="pdf" resourceId="Acord137UT.pdf" title="ACORD_137UT_FORM" description="Acord 137 PDF" id="N239"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137VA_LAYOUT.xml" title="Acord 137 VA PDF layout" id="N240"/>
+		<artifact type="pdf" resourceId="Acord137VA.pdf" title="ACORD_137VA_FORM" description="Acord 137 PDF" id="N241"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137VT_LAYOUT.xml" title="Acord 137 VT PDF layout" id="N242"/>
+		<artifact type="pdf" resourceId="Acord137VT.pdf" title="ACORD_137VT_FORM" description="Acord 137 PDF" id="N243"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137WA_LAYOUT.xml" title="Acord 137 WA PDF layout" id="N244"/>
+		<artifact type="pdf" resourceId="Acord137WA.pdf" title="ACORD_137WA_FORM" description="Acord 137 PDF" id="N245"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137WI_LAYOUT.xml" title="Acord 137 WI PDF layout" id="N246"/>
+		<artifact type="pdf" resourceId="Acord137WI.pdf" title="ACORD_137WI_FORM" description="Acord 137 PDF" id="N247"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137WV_LAYOUT.xml" title="Acord 137 WV PDF layout" id="N248"/>
+		<artifact type="pdf" resourceId="Acord137WV.pdf" title="ACORD_137WV_FORM" description="Acord 137 PDF" id="N249"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137MI_LAYOUT.xml" title="Acord 137 MI PDF layout" id="N250"/>
+		<artifact type="pdf" resourceId="Acord137MI.pdf" title="ACORD_137MI_FORM" description="Acord 137 PDF" id="N251"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137NJ_LAYOUT.xml" title="Acord 137 NJ PDF layout" id="N252"/>
+		<artifact type="pdf" resourceId="Acord137NJ.pdf" title="ACORD_137NJ_FORM" description="Acord 137 PDF" id="N253"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137NV_LAYOUT.xml" title="Acord 137 NV PDF layout" id="N254"/>
+		<artifact type="pdf" resourceId="Acord137NV.pdf" title="ACORD_137NV_FORM" description="Acord 137 PDF" id="N255"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137RI_LAYOUT.xml" title="Acord 137 RI PDF layout" id="N256"/>
+		<artifact type="pdf" resourceId="Acord137RI.pdf" title="ACORD_137RI_FORM" description="Acord 137 PDF" id="N257"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137CA_LAYOUT.xml" title="Acord 137 CA PDF layout" id="N258"/>
+		<artifact type="pdf" resourceId="Acord137CA.pdf" title="ACORD_137CA_FORM" description="Acord 137 PDF" id="N259"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137AK_LAYOUT.xml" title="Acord 137 AK PDF layout" id="N260"/>
+		<artifact type="pdf" resourceId="Acord137AK.pdf" title="ACORD_137AK_FORM" description="Acord 137 PDF" id="N261"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137FL_LAYOUT.xml" title="Acord 137 FL PDF layout" id="N262"/>
+		<artifact type="pdf" resourceId="Acord137FL.pdf" title="ACORD_137FL_FORM" description="Acord 137 PDF" id="N263"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137HI_LAYOUT.xml" title="Acord 137 HI PDF layout" id="N264"/>
+		<artifact type="pdf" resourceId="Acord137HI.pdf" title="ACORD_137HI_FORM" description="Acord 137 PDF" id="N265"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137LA_LAYOUT.xml" title="Acord 137 LA PDF layout" id="N266"/>
+		<artifact type="pdf" resourceId="Acord137LA.pdf" title="ACORD_137LA_FORM" description="Acord 137 PDF" id="N267"/>
+		<artifact type="pdfLayout" resourceId="ACORD_137MA_LAYOUT.xml" title="Acord 137 MA PDF layout" id="N268"/>
+		<artifact type="pdf" resourceId="Acord137MA.pdf" title="ACORD_137MA_FORM" description="Acord 137 PDF" id="N269"/>
+		<artifact type="pdfLayout" resourceId="ACORD_127_LAYOUT.xml" title="Acord 127 PDF layout" id="N270"/>
+		<artifact type="pdf" resourceId="Acord127.pdf" title="ACORD_127_FORM" description="Acord 27 PDF" id="N271"/>
+		<artifact type="xarcRule" resourceId="commlAutoRules.xml" title="Commercial Auto Validations" description="Commercial Auto Validations" id="N272"/>
+		<artifact type="acordWorkItemMap" resourceId="autob_workitem_map.xml" title="Acord to work item mapping for Comml Auto" description="Acord to work item mapping for Comml Auto" id="N273"/>
+		<dependency version="5.0.0.0"  productRefType="shared" id="N274"/>
+		<dependency version="5.0.0.0"  productRefType="commercial" id="N275"/>
+	</product>
+ -->	
+<!-- 	
+	<product type="CPKGE" version="5.0.0.0" title="Commercial Package" path="cpp" description="Commercial Package" id="N276">
+		<artifact type="propertyFile" resourceId="cpp.properties" title="Properties" id="N277"/>
+		<artifact type="tdf" resourceId="cpp.xml" title="New Commercial Package Application" id="N278"/>
+		<artifact type="tdf" resourceId="endorseCpp.xml" title="Commercial Package Endorsement" id="N279"/>
+		<artifact type="tdf" resourceId="renewCpp.xml" title="Commercial Package Renewal" id="N280"/>
+		<artifact type="pageLibrary" resourceId="cppCommons.xml" title="Commercial Package Page Library" id="N281"/>
+		<artifact type="optionList" resourceId="cppCodeListRef.xml" title="Commercial Package Code List" id="N282"/>
+		<artifact type="behavior" resourceId="cppBehavior.xml" title="Dynamic Behaviors for Commercial Package" id="N283"/>
+		<artifact type="xarcRule" resourceId="cppRules.xml" title="Commercial Package Validations" description="Commercial Package Validations" id="N284"/>
+		<artifact type="acordWorkItemMap" resourceId="cpp_workitem_map.xml" title="Acord to work item mapping for Comml Package" description="Acord to work item mapping for Comml Package" id="N285"/>
+		<dependency version="5.0.0.0"  productRefType="PROPC" id="N286"/>
+		<dependency version="5.0.0.0"  productRefType="CGL" id="N287"/>
+		<dependency version="5.0.0.0"  productRefType="AUTOB" id="N288"/>
+		<dependency version="5.0.0.0"  productRefType="INMRC" id="N289"/>
+		<dependency version="5.0.0.0"  productRefType="CRIME" id="N290"/>
+	</product>
+	<product type="INMRC" version="5.0.0.0" title="Inland Marine" path="inlandMarine" description="Inland Marine" id="N291">
+		<artifact type="propertyFile" resourceId="inlandMarine.properties" title="Properties" id="N292"/>
+		<artifact type="tdf" resourceId="inlandMarine.xml" title="New Commercial Inland Marine Application" id="N293"/>
+		<artifact type="tdf" resourceId="endorseInlandMarine.xml" title="Commercial Inland Marine Endorsement" id="N294"/>
+		<artifact type="tdf" resourceId="renewInlandMarine.xml" title="Commercial Inland Marine Renewal" id="N295"/>
+		<artifact type="pageLibrary" resourceId="inlandMarineCommons.xml" title="Commercial Inland Marine Page Library" id="N296"/>
+		<artifact type="optionList" resourceId="inlandMarineCodeListRef.xml" title="Commercial Inland Marine Code List" id="N297"/>
+		<artifact type="dynamicListTemplate" resourceId="inlandMarineDynamicListTemplates.xml" description="Inland Marine Dynamic Lists" title="Inland Marine Dynamic Lists" id="N298"/>
+		<artifact type="behavior" resourceId="inlandMarineBehavior.xml" title="Dynamic Behaviors for Inland Marine" id="N299"/>
+		<artifact type="pdfLayout" resourceId="ACORD_143_LAYOUT.xml" title="Acord 143 PDF Layout" id="N300"/>
+		<artifact type="pdfLayout" resourceId="ACORD_146_LAYOUT.xml" title="Acord 146 PDF Layout" id="N301"/>
+		<artifact type="pdfLayout" resourceId="ACORD_147_LAYOUT.xml" title="Acord 147 PDF Layout" id="N302"/>
+		<artifact type="pdfLayout" resourceId="ACORD_148_LAYOUT.xml" title="Acord 148 PDF Layout" id="N303"/>
+		<artifact type="pdf" resourceId="Acord143.pdf" title="ACORD_143_FORM" description="Acord 143 PDF" id="N304"/>
+		<artifact type="pdf" resourceId="Acord146.pdf" title="ACORD_146_FORM" description="Acord 146 PDF" id="N305"/>
+		<artifact type="pdf" resourceId="Acord147.pdf" title="ACORD_147_FORM" description="Acord 147 PDF" id="N306"/>
+		<artifact type="pdf" resourceId="Acord148.pdf" title="ACORD_148_FORM" description="Acord 148 PDF" id="N307"/>
+		<artifact type="sfh" resourceId="com.agencyport.inlandMarine.custom.CompEquipPremisesCoveragesHelper" title="Premises Coverage SFH" id="N308"/>
+		<artifact type="sfh" resourceId="com.agencyport.inlandMarine.custom.IMSubLocationHelper" title="Im SubLocation SFH" id="N309"/>
+		<artifact type="sfh" resourceId="com.agencyport.inlandMarine.custom.BuildersRiskCauseOfLossHelper" title="Builders Risk Cause of Loss SFH" id="N310"/>
+		<artifact type="sfh" resourceId="com.agencyport.inlandMarine.custom.CompEquipIncomeCoveragesHelper" title="Computer Equipment Income Coverages SFH" id="N311"/>
+		<artifact type="sfh" resourceId="com.agencyport.inlandMarine.custom.CommlIMPropertyInfoHelper" title="CommlIMPropertyInfo SFH" id="N312"/>
+		<artifact type="view" resourceId="inlandMarineViews.xml" title="Views" id="N313"/>
+		<artifact type="xarcRule" resourceId="inlandMarineRules.xml" title="Commercial Inland Marine Validations" description="Commercial Inland Marine Validations" id="N314"/>
+		<artifact type="acordWorkItemMap" resourceId="inmrc_workitem_map.xml" title="Acord to work item mapping for Comml Package" description="Acord to work item mapping for Comml Package" id="N315"/>
+		<artifact resourceId="inlandMarine_transformers.xml" type="transformer" description="" title="Commercial Inland Marine Transformations" id="N29100001"/>		
+		<dependency version="5.0.0.0"  productRefType="shared" id="N316"/>
+		<dependency version="5.0.0.0"  productRefType="commercial" id="N317"/>
+	</product>
+	<product type="PROPC" version="5.0.0.0" title="Commercial Property" path="commlProperty" description="Commercial PropertyPolicy"  id="N318">
+		<artifact type="propertyFile" resourceId="commlProperty.properties" title="Properties" id="N319"/>
+		<artifact type="tdf" resourceId="commlProperty.xml" title="New Commercial Property Application" id="N320"/>
+		<artifact type="tdf" resourceId="endorseCommlProperty.xml" title="Commercial Property Endorsement" id="N321"/>
+		<artifact type="tdf" resourceId="renewCommlProperty.xml" title="Commercial Property Renewal" id="N322"/>
+		<artifact type="pageLibrary" resourceId="commlPropertyCommons.xml" title="Commercial Property Common Page Library" id="N323"/>
+		<artifact type="optionList" resourceId="commlPropCodeListRef.xml" description="Commercial PropertyOption Lists" title="Commercial Property Option Lists" id="N324"/>
+		<artifact type="view" resourceId="commlPropViews.xml" title="Views" id="N325"/>
+		<artifact type="behavior" resourceId="commlPropertyBehavior.xml" title="Dynamic Behaviors for Commercial Property" id="N326"/>
+		<artifact type="pdfLayout" resourceId="ACORD_140_LAYOUT.xml" title="Acord 140 PDF Layout" id="N327"/>
+		<artifact type="pdf" resourceId="Acord140.pdf" title="ACORD_140_FORM" description="Acord 140 PDF" id="N328"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlProperty.custom.CauseOfLossHelper" title="Cause of Loss Helper SFH" id="N329"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlProperty.custom.CommlPropertyHelper" title="Commercial Property Helper SFH" id="N330"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlProperty.custom.CommlPropertySOIHelper" title="Commercial Property SOI Helper SFH" id="N331"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlProperty.custom.TerrorismOptionTypeHelper" title="Terrorism Option Type Helper SFH" id="N332"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlProperty.custom.CommlPropertySubLocationHelper" title="Sublocation Helper SFH" id="N333"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlProperty.custom.CommlPropertyAdditionalInterestHelper" title="Sublocation Helper SFH" id="N334"/>
+		<artifact type="sfh" resourceId="com.agencyport.shared.commercial.AlarmAndSecurityHelper" title="Alarm And Security Helper SFH" id="N335"/>
+		<artifact type="sfh" resourceId="com.agencyport.shared.commercial.FireAlarmAndSecurityHelper" title="Fire Alarm Helper SFH" id="N336"/>
+		<artifact type="acordWorkItemMap" resourceId="commlProperty_workitem_map.xml" title="Acord to work item mapping for Commercial Property" id="N337"/>
+		<artifact resourceId="commlPropertyRules.xml" type="xarcRule" title="Commercial Property XARC Rules" id="N338"/>
+		<artifact resourceId="commlProp_transformers.xml" type="transformer" description="" title="Commercial Property Transformations" id="N31800001"/>
+		<dependency version="5.0.0.0"  productRefType="shared" id="N339"/>
+		<dependency version="5.0.0.0"  productRefType="commercial" id="N340"/>
+	</product>
+	<product type="CRIME" version="5.0.0.0" title="Commercial Crime" path="commlCrime" description="Commercial Crime" id="N341">
+		<artifact type="propertyFile" resourceId="commlCrime.properties" title="Commercial Crime Properties" id="N342"/>
+		<artifact type="tdf" resourceId="commlCrime.xml" title="New Commercial Crime Application" id="N343"/>
+		<artifact type="tdf" resourceId="endorseCommlCrime.xml" title="Endorse Commercial Crime Application" id="N344"/>
+		<artifact type="tdf" resourceId="renewalCommlCrime.xml" title="Renew Commercial Crime Application" id="N345"/>
+		<artifact type="pageLibrary" resourceId="commlCrimeCommons.xml" title="Commercial Crime Library" id="N346"/>
+		<artifact type="optionList" resourceId="commlCrimeCodeListRef.xml" title="Commercial Crime Code List" id="N347"/>
+		<artifact type="view" resourceId="commlCrimeViews.xml" title="Commercial Crime Views" id="N348"/>
+		<artifact type="behavior" resourceId="commlCrimeBehavior.xml" title="Dynamic Behaviors for Commercial Crime" id="N349"/>
+		<artifact type="pdfLayout" resourceId="ACORD_141_LAYOUT.xml" title="Acord 141 PDF Layout" id="N350"/>
+		<artifact type="pdf" resourceId="Acord141.pdf" title="ACORD_141_FORM" description="Acord 141 PDF" id="N351"/>
+		<artifact type="pdfLayout" resourceId="ACORD_141C_LAYOUT.xml" title="Acord 141C PDF Layout" id="N352"/>
+		<artifact type="pdf" resourceId="Acord141C.pdf" title="ACORD_141C_FORM" description="Acord 141C PDF" id="N353"/>
+		<artifact resourceId="crimeInfoRules.xml" type="xarcRule" description="Crime Info Validation Rules" title="Crime Info Validation Rules" id="N354"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlCrime.custom.SubLocationHelper" title="SubLocation Helper" description="SubLocation Helper" id="N355"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlCrime.custom.CommlCrimeInfoHelper" title="Crime Info Helper" description="Crime Info Helper" id="N356"/>
+		<artifact type="sfh" resourceId="com.agencyport.shared.commercial.AlarmSecuritySafeValultHelper" title="Alarm And Security Helper SFH" id="N357"/>
+		<artifact type="acordWorkItemMap" resourceId="crime_workitem_map.xml" title="Acord to work item mapping for Commercial Crime" id="N358"/>
+		<artifact resourceId="crime_transformers.xml" type="transformer" description="" title="Commercial Crime Transformations" id="N34100001"/>		
+		<dependency version="5.0.0.0"  productRefType="shared" id="N359"/>
+		<dependency version="5.0.0.0"  productRefType="commercial" id="N360"/>
+	</product>
+	<product type="CGL" description="" title="Liability" shared="false" version="5.0.0.0" path="commlGenLiability" id="N361">
+		<artifact resourceId="liability.properties" type="propertyFile" title="Properties" id="N362"/>
+		<artifact resourceId="liabilityCodeListRef.xml" type="optionList" description="" title="Liability Codelist" id="N363"/>
+		<artifact resourceId="liability.xml" type="acordWorkItemMap" description="Acord to work item mapping for Auto Liability Carve-Out" title="Acord to work item mapping for Auto Liability Carve-Out" id="N364"/>
+		<artifact resourceId="liabilityCommons.xml" type="pageLibrary" description="" title="Liability Common Library" id="N365"/>
+		<artifact resourceId="liabilityBehaviors.xml" type="behavior" description="" title="Liability Behaviors" id="N366"/>
+		<artifact resourceId="liability.xml" type="tdf" description="" title="Liability Product" id="N367"/>
+		<artifact resourceId="liabilityQQ.xml" type="tdf" description="" title="Liability Quick Quote Product" id="N368"/>
+		<artifact resourceId="endorseLiability.xml" type="tdf" description="" title="Endorse Liability" id="N369"/>
+		<artifact resourceId="renewLiability.xml" type="tdf" description="" title="Renewal Liability" id="N370"/>
+		<artifact resourceId="liabilityViews.xml" type="view" title="Liability View" description="Views for Liability Product" id="N371"/>
+		<artifact type="pdf" resourceId="Acord126.pdf" title="ACORD_126_FORM" description="Acord 126 PDF" id="N372"/>
+		<artifact type="pdfLayout" resourceId="ACORD_126_LAYOUT.xml" title="Acord 126 PDF Layout" id="N373"/>
+		<artifact resourceId="liability_transformers.xml" type="transformer" description="" title="General Liability Transformations" id="N36100001"/>		
+		<dependency version="5.0.0.0"  productRefType="shared" id="N374"/>
+		<dependency version="5.0.0.0"  productRefType="commercial" id="N375"/>
+	</product>
+	<product type="UMBRC" version="5.0.0.0" title="Commercial Umbrella" path="commlUmbrella" description="Commercial Umbrella" id="N376">
+		<artifact type="propertyFile" resourceId="commlUmbrella.properties" title="Commercial Umbrella Properties" id="N377"/>
+		<artifact type="tdf" resourceId="commlUmbrella.xml" title="New Commercial Umbrella Application" id="N378"/>
+		<artifact type="tdf" resourceId="endorseCommlUmbrella.xml" title="Commercial Umbrella Endorsement" id="N379"/>
+		<artifact type="tdf" resourceId="renewalCommlUmbrella.xml" title="Commercial Umbrella Renewal" id="N380"/>
+		<artifact type="pageLibrary" resourceId="commlUmbrellaCommons.xml" title="Commercial Umbrella Library" id="N381"/>
+		<artifact type="optionList" resourceId="commlUmbrellaCodeListRef.xml" title="Commercial Umbrella Code List" id="N382"/>
+		<artifact type="view" resourceId="commlUmbrellaViews.xml" title="Commercial Umbrella Views" id="N383"/>
+		<artifact type="behavior" resourceId="commlUmbrellaBehavior.xml" title="Dynamic Behaviors for Commercial Umbrella" id="N384"/>
+		<artifact type="pdfLayout" resourceId="ACORD_131_LAYOUT.xml" title="Acord 131 PDF Layout" id="N385"/>
+		<artifact type="pdf" resourceId="Acord131.pdf" title="ACORD_131_FORM" description="Acord 131 PDF" id="N386"/>
+		<artifact type="xarcRule" resourceId="umbrellaValRules.xml" description="Commercial Umbrella Validation Rules" title="Commercial Umbrella Validation Rules" id="N387"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlUmbrella.custom.UnderlyingInfoHelper" title="Underlying Helper" description="Underlying Helper" id="N388"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlUmbrella.custom.CareCustodyControlFieldHelper" title="Care, Custody and Control Helper" description="Care, Custody and Control Helper" id="N389"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlUmbrella.custom.CommlUmbrellaSubLocationHelper" title="Commercial Umbrella SubLocation Helper" id="N390"/>
+		<artifact type="acordWorkItemMap" resourceId="umbrc_workitem_map.xml" title="Acord to work item mapping for Commercial Umbrella" id="N391"/>
+		<artifact resourceId="commlUmbrella_transformers.xml" type="transformer" description="" title="Commercial Umbrella Transformations" id="N37600001"/>		
+		<dependency version="5.0.0.0"  productRefType="shared" id="N392"/>
+		<dependency version="5.0.0.0"  productRefType="commercial" id="N393"/>
+	</product>
+	<product type="CFRM" version="5.0.0.0" title="Commercial Farmowners" path="farmowners" description="Commercial Farmowners" id="N394">
+		<artifact type="propertyFile" resourceId="farmowners.properties" title="Properties" id="N395"/>
+		<artifact type="tdf" resourceId="farmowners.xml" title="New Commercial Farmowners Application" id="N396"/>
+		<artifact type="pageLibrary" resourceId="farmownersCommons.xml" title="Commercial farmowners Common Page Library" id="N397"/>
+		<artifact type="optionList" resourceId="farmownersCodeListRef.xml" title="Commercial Farmowners Option Lists" id="N398"/>
+		<artifact type="dynamicListTemplate" resourceId="farmownersDynamicListTemplates.xml" title="Commercial Farmowners Dynamic Code List" id="N399"/>
+		<artifact type="view" resourceId="farmownersViews.xml" title="Commercial Farmowners Views" id="N400"/>
+		<artifact type="behavior" resourceId="farmownersBehavior.xml" title="Dynamic Behaviors for Commercial Farmowners" id="N401"/>
+		<artifact type="sfh" resourceId="com.agencyport.farmowners.custom.AdditionalInterestHelper" title="Additional Interest Helper SFH" id="N402"/>
+		<artifact type="sfh" resourceId="com.agencyport.farmowners.custom.HurricaneTropicalStormDeductibleHelper" title="Hurricane and Storm Helper SFH" id="N403"/>
+		<artifact type="sfh" resourceId="com.agencyport.farmowners.custom.WindstormHailDeductibleHelper" title="Windstorm Helper SFH" id="N404"/>
+		<artifact type="pdfLayout" resourceId="ACORD_410_LAYOUT.xml" title="Acord 410 PDF Layout" id="N405"/>
+		<artifact type="pdf" resourceId="Acord410.pdf" title="ACORD_410_FORM" description="Acord 410 PDF" id="N406"/>
+		<artifact type="acordWorkItemMap" resourceId="cfrm_workitem_map.xml" title="Acord to work item mapping for Commercial Farmowners" id="N407"/>
+		<artifact resourceId="farmownersRules.xml" type="xarcRule" title="Commercial Farmowners XARC Rules" id="N408"/>
+		<artifact resourceId="farmOwners_transformers.xml" type="transformer" description="" title="Commercial FarmOwners Transformations" id="N39400001"/>		
+		<dependency version="5.0.0.0"  productRefType="shared" id="N409"/>
+	</product>
+	<product type="UMBRP" version="5.0.0.0" title="Personal Umbrella" path="persumbrella" description="Personal Umbrella" id="N410">
+		<artifact type="propertyFile" resourceId="persUmbrella.properties" title="Properties" id="N411"/>
+		<artifact type="tdf" resourceId="persUmbrella.xml" title="New Personal Umbrella Application" id="N412"/>
+		<artifact type="tdf" resourceId="endorsePersUmbrella.xml" title="Commercial Package Endorsement" id="N413"/>
+		<artifact type="sfh" resourceId="com.agencyport.persumbrella.custom.LocationHelper" title="Location Helper SFH" id="N414"/>
+		<artifact type="pageLibrary" resourceId="persumbrellaCommons.xml" title="Personal Umbrella Common Page Library" id="N415"/>
+		<artifact type="optionList" resourceId="persUmbrellaCodeListRef.xml" title="Personal Umbrella Option Lists" id="N416"/>
+		<artifact type="dynamicListTemplate" resourceId="persUmbrellaDynamicListTemplates.xml" title="Personal Umbrella Dynamic Code List" id="N417"/>
+		<artifact type="view" resourceId="persUmbrellaViews.xml" title="Personal Umbrella Views" id="N418"/>
+		<artifact type="behavior" resourceId="persUmbrellaBehavior.xml" title="Dynamic Behaviors for Personal Umbrella" id="N419"/>
+		<artifact type="pdfLayout" resourceId="ACORD_83_LAYOUT.xml" title="Acord 83 PDF Layout" id="N420"/>
+		<artifact type="pdf" resourceId="Acord83.pdf" title="ACORD_83_FORM" description="Acord 83 PDF" id="N421"/>
+		<artifact type="acordWorkItemMap" resourceId="umbrp_workitem_map.xml" title="Acord to work item mapping for Personal Umbrella" id="N422"/>
+		<artifact resourceId="persUmbrellaRules.xml" type="xarcRule" title="Commercial Farmowners XARC Rules" id="N423"/>
+		<artifact resourceId="persUmbrella_transformers.xml" type="transformer" description="" title="Personal Umbrella Transformations" id="N41000001"/>		
+		<dependency version="5.0.0.0"  productRefType="shared" id="N424"/>
+	</product>
+	<product type="GARAG" version="5.0.0.0" title="Commercial Garage" path="commlGarage" description="Commercial Garage" id="N425">
+		<artifact type="propertyFile" resourceId="commlGarage.properties" title="Commercial Garage Properties" id="N426"/>
+		<artifact type="tdf" resourceId="commlGarage.xml" title="New Commercial Garage Application" id="N427"/>
+		<artifact type="pageLibrary" resourceId="commlGarageCommons.xml" title="Commercial Garage Library" id="N428"/>
+		<artifact type="optionList" resourceId="commlGarageCodeListRef.xml" title="Commercial Garage Code List" id="N429"/>
+		<artifact type="view" resourceId="commlGarageViews.xml" title="Commercial Garage Views" id="N430"/>
+		<artifact type="behavior" resourceId="commlGarageBehaviors.xml" title="Dynamic Behaviors for Commercial Garage" id="N431"/>
+		<artifact type="xarcRule" resourceId="commlGarageRules.xml" description="Commercial Garage Validation Rules" title="Commercial Garage Validation Rules" id="N432"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlGarage.custom.AdditionalInterestHelper" title="AdditionalInterest Helper" description="AdditionalInterest Helper" id="N433"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlGarage.custom.AutoDealerClassificationHelper" title="AutoDealerClassification Helper" description="AutoDealerClassification Helper" id="N434"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlGarage.custom.CGAdditionalPolicyCoverageHelper" title="CGAdditionalPolicyCoverage Helper" description="CGAdditionalPolicyCoverage Helper" id="N435"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlGarage.custom.CompSpecialPerilsSymbolHelper" title="CompSpecialPerilsSymbol Helper" description="CompSpecialPerilsSymbol Helper" id="N436"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlGarage.custom.GarageKeepersFieldHelper" title="GarageKeepersField Helper" description="GarageKeepersField Helper" id="N437"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlGarage.custom.LiabilityHelper" title="Liability Helper" description="Liability Helper" id="N438"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlGarage.custom.LocationCoveragesHelper" title="LocationCoverages Helper" description="LocationCoverages Helper" id="N439"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlGarage.custom.PhysicalDamageFieldsHelper" title="PhysicalDamageFields Helper" description="PhysicalDamageFields Helper" id="N440"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlGarage.custom.PhysicalDamageStorageHelper" title="PhysicalDamageStorage Helper" description="PhysicalDamageStorage Helper" id="N441"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlGarage.custom.SubLocationHelper" title="SubLocation Helper" description="SubLocation Helper" id="N442"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlGarage.custom.SymbolFieldHelper" title="SymbolField Helper" description="SymbolField Helper" id="N443"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlGarage.custom.UnderInsuredHelper" title="UnderInsured Helper" description="UnderInsured Helper" id="N444"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlGarage.custom.VehicleCovsHelper" title="VehicleCov Helper" description="VehicleCov Helper" id="N445"/>
+		<artifact type="sfh" resourceId="com.agencyport.commlGarage.custom.VehicleGaragingAddressHelper" title="VehicleGaragingAddress Helper" description="VehicleGaragingAddress Helper" id="N446"/>
+		<artifact type="acordWorkItemMap" resourceId="commlGarage_workitem_map.xml" title="Acord to work item mapping for Commercial Garage" id="N447"/>
+		<dependency version="5.0.0.0"  productRefType="shared" id="N448"/>
+		<dependency version="5.0.0.0"  productRefType="commercial" id="N449"/>
+	</product>
+	<product type="ACCOUNT" description="Account" title="Account" shared="false" version="5.0.0.0" path="account" id="N453">
+		<artifact type="tdf" resourceId="account.xml" title="Account" id="N454" />
+		<artifact type="acordWorkItemMap" resourceId="accountMap.xml" description="Acord to work item mapping for accounts" title="Account" id="N455" />
+		<artifact type="propertyFile" resourceId="account.properties" title="Properties" id="N456" />
+		<artifact type="pageLibrary" resourceId="accountPages.xml" description="Account Page Library" title="Account" id="N457" />
+		<artifact type="behavior" resourceId="accountBehaviors.xml" description="" title="Account Behaviors" id="N458" />
+		<artifact type="optionList" resourceId="accountCodeListRef.xml" title="Account Option Lists" id="N459" />
+		<artifact type="view" resourceId="accountViews.xml" title="Account Views" id="N460" />
+		<artifact resourceId="accountTransformers.xml" type="transformer" description="" title="Account Transformations" id="N461" />
+		<dependency version="5.0.0.0" productRefType="shared" id="N4611" />
+		<dependency version="5.0.0.0" productRefType="commercial" id="N4612" />
+	</product>
+	<product type="PROF" id="N276867885" description="" title="Professional Liability" version="5.0.0.0" path="professionalLiability">
+		<artifact type="behavior" resourceId="supplementalTitleAgentsBehavior.xml" id="N276867923" description="" title="Supplemental Title Agents Behaviors" />
+		<artifact type="behavior" resourceId="miscellaneousProfessionalLiabilityBehaviors.xml" id="N276867924" description="" title="Misc Professional Liability Behaviors" />
+		<artifact type="behavior" resourceId="supplementalMortgageBrokersBehavior.xml" id="N276867925" description="" title="Supplemental Mortgage Brokers Behaviors" />
+		<artifact type="behavior" resourceId="supplementalTrusteeBehavior.xml" id="N276867926" description="" title="Supplemental Trustee Behaviors" />
+		<artifact type="behavior" resourceId="supplementalMediaBehavior.xml" id="N276867900" description="" title="Supplemental Media Behaviors" />
+		<artifact type="pageLibrary" resourceId="supplement_MediaLiabilityLibrary.xml" id="N276867901" description="" title="Media Liability Library" />
+		<artifact type="xarcRule" resourceId="UnderwritingRulesFile.xml" id="N276867920" description="" title="Underwriting Rules" />
+		<artifact type="pageLibrary" resourceId="supplement_TrusteeLiabilityLibrary.xml" id="N276867899" description="" title="Supplemental - Trustee Liability Page Library" />
+		<artifact type="pageLibrary" resourceId="supplement_ManagementConsultantsLiabilityLibrary.xml" id="N276867902" description="" title="Supplemental - Management Consultants Liability Page Library" />
+		<artifact type="xarcRule" resourceId="AttachmentsHeadsUpLibrary.xml" id="N276867921" description="Notify the user when supporting documents need to be attached" title="Attachments Heads-Up" />
+		<artifact type="xarcRule" resourceId="ProfessionalLiabilityRules.xml" id="N276867903" description="" title="Professional Liability Rules" />
+		<artifact type="behavior" resourceId="supplementalRealtorsBehavior.xml" id="N276867922" description="" title="Supplemental Realtors Behaviors" />
+		<artifact type="pageLibrary" resourceId="supplement_AdvertisingAgencyLiabilityLibrary.xml" id="N276867897" description="" title="Supplemental - Advertising Agency Liability Page Library" />
+		<artifact type="behavior" resourceId="supplementalPromotersOrPrintersBehavior.xml" id="N276867904" description="" title="Supplemental Promoters Or Printers Behaviors" />
+		<artifact type="xarcRule" resourceId="CheckForRequiredAttachments.xml" id="N276867905" description="" title="Check For Required Attachments" />
+		<artifact type="behavior" resourceId="professionalLiabilityBehaviors.xml" id="N276867906" description="" title="Misc Professional Liability Behaviors" />
+		<artifact type="pageLibrary" resourceId="supplement_PromotersOrPrintersLiabilityLibrary.xml" id="N276867907" description="" title="Supplemental - Promoters Or Printers Liability Page Library" />
+		<artifact type="behavior" resourceId="demoPLbehavior.xml" id="N276867908" description="" title="Demo Prof Liab Behaviors" />
+		<artifact type="behavior" resourceId="supplementalAdvertisementBehavior.xml" id="N276867909" description="" title="Supplemental Advertisement Behaviors" />
+		<artifact type="pageLibrary" resourceId="supplement_ClaimsAdjustersLiabilityLibrary.xml" id="N276867914" description="" title="Supplemental - Claims Adjusters Liability Page Library" />
+		<artifact type="behavior" resourceId="supplementalExecRecruitingBehavior.xml" id="N276867892" description="" title="Supplemental Exec Recruiting Behaviors" />
+		<artifact type="dynamicListTemplate" resourceId="professionalLiabilityDynamicList.xml" id="N276867891" description="Professional Liability Dynamic Lists" title="Professional Liability Dynamic Lists" />
+		<artifact type="optionList" resourceId="liabilityCodeListRef.xml" id="N276867912" description="" title="Liability Codelist" />
+		<artifact type="pageLibrary" resourceId="supplement_TitleAgentsLiabilityLibrary.xml" id="N276867890" description="" title="Supplemental - Title Agents Liability Page Library" />
+		<artifact type="pageLibrary" resourceId="supplement_EscrowOperationsLiabilityLibrary.xml" id="N276867913" description="" title="Supplemental - Excrow Operations Liability Page Library" />
+		<artifact type="acordWorkItemMap" resourceId="professionalLiabilityMap.xml" id="N276867896" description="Acord to work item mapping for Auto Liability Carve-Out" title="Acord to work item mapping for Auto Liability Carve-Out" />
+		<artifact type="pageLibrary" resourceId="supplement_MortgageBrokerLiabilityLibrary.xml" id="N276867910" description="" title="Supplemental - Mortgage Broker Liability Page Library" />
+		<artifact type="pageLibrary" resourceId="supplement_RealtorsAndBrokersLiabilityLibrary.xml" id="N276867911" description="" title="Supplemental - Real Estate Agents and Brokers Liability Page Library" />
+		<artifact type="pageLibrary" resourceId="supplement_ExecRecruitingLiabilityLibrary.xml" id="N276867895" description="" title="Supplemental - Executive Recruiting Consultants Liability Page Library" />
+		<artifact type="propertyFile" resourceId="prof.properties" id="N276867894" title="Properties" />
+		<artifact type="tdf" resourceId="professionalLiability.xml" id="N276867893" description="" title="Professional Liability" />
+		<artifact type="pageLibrary" resourceId="miscellaneousProfessionalLiabilityLibrary.xml" id="N276867918" title="Miscellaneous Professional Liability Library" />
+		<artifact type="behavior" resourceId="supplementalAppLiabilityBehaviors.xml" id="N276867919" description="" title="Supplemental Applications Liability Behaviors" />
+		<artifact type="behavior" resourceId="supplementalEscrowOperationsBehavior.xml" id="N276867916" description="" title="Supplemental Escrow Operations Behaviors" />
+		<artifact type="behavior" resourceId="supplementalClaimsAdjustersBehavior.xml" id="N276867917" description="" title="Supplemental Claims Adjustment Behaviors" />
+		<artifact type="optionList" resourceId="professionalLiabilityCodeListRef.xml" id="N276867888" description="" title="Professional Liability Codelist" />
+		<artifact type="pageLibrary" resourceId="professionalLiabilityLibrary.xml" id="N276867889" title="Professional Liability Library" />
+		<artifact type="behavior" resourceId="supplementalManagementConsultantsBehavior.xml" id="N276867886" description="" title="Supplemental Management Consultants Behaviors" />
+		<artifact type="view" resourceId="liabilityViews.xml" id="N276867887" description="Views for Liability Product" />
+		<dependency version="5.0.0.0"  productRefType="shared" id="N276867927" />
+		<dependency version="5.0.0.0"  productRefType="commercial" id="N276867928" />
+	</product>
+	<product type="MROF" id="N256867885" description="" title="Management Liability" shared="false" version="5.0.0.0" path="managementLiability">
+		<artifact type="tdf" resourceId="managementLiability.xml" id="N256867893" description="" title="management Liability" />
+	   	<artifact type="tdf" resourceId="endorseManageLiability.xml" id="N256867890" description="" title="endorse management Liability" />
+    	<artifact type="tdf" resourceId="renewalManageLiability.xml" id="N256867891" description="" title="renewal management Liability" />
+		<artifact type="propertyFile" resourceId="mrof.properties" id="N256867894" title="Properties" />
+		<artifact type="acordWorkItemMap" resourceId="managementLiabilityMap.xml" id="N256867896" description="Acord to work item mapping for  Liability Carve-Out" title="Acord to work item mapping for  Liability Carve-Out" />
+		<artifact type="behavior" resourceId="miscellaneousManagementLiabilityBehaviors.xml" id="N256867924" description="" title="Misc management Liability Behaviors" />
+		<artifact type="behavior" resourceId="managementLiabilityBehaviors.xml" id="N256867906" description="" title="Misc management Liability Behaviors" />
+		<artifact type="behavior" resourceId="supplementalExecRecruitingBehavior.xml" id="N256867892" description="" title="Supplemental Exec Recruiting Behaviors" />
+		<artifact type="pageLibrary" resourceId="miscellaneousManagementLiabilityLibrary.xml" id="N256867918" title="Miscellaneous management Liability Library" />
+		<artifact type="pageLibrary" resourceId="managementLiabilityLibrary.xml" id="N256867889" title="management Liability Library" />
+		<artifact type="dynamicListTemplate" resourceId="managementLiabilityDynamicList.xml" id="N256867801" description="management Liability Dynamic Lists" title="management Liability Dynamic Lists" />
+		<artifact type="optionList" resourceId="managementLiabilityCodeListRef.xml" id="N256867912" description="" title="Liability Codelist" />
+		<artifact type="view" resourceId="managementLiabilityViews.xml" id="N256867887" description="Views for Liability Product" />
+		<dependency version="5.0.0.0" productRefType="shared" id="N256867927" />
+		<dependency version="5.0.0.0" productRefType="commercial" id="N256867928" />
+	</product>
+ -->	
+ 
+ 
+   <product type="AUTOP" version="5.0.0.0" path="persauto" title="Personal Auto">
+    <artifact type="propertyFile" resourceId="persauto.properties" title="Properties" />
+    <artifact type="behavior" resourceId="persautoBehaviors.xml" title="Dynamic Behaviors for new business" />
+    <artifact type="optionList" resourceId="persautoCodeListRef.xml" description="Persauto Option Lists" title="Persauto Option Lists" />
+    <artifact type="dynamicListTemplate" resourceId="persautoDynamicListTemplates.xml" description="Persauto Dynamic Lists" title="Persauto Dynamic Lists" />
+    <artifact type="optionList" resourceId="persautoPDFCodeListRef.xml" description="Persauto Option Lists for PDFs" title="Persauto Option Lists for PDFs" />
+    <artifact type="tdf" resourceId="persauto.xml" title="Personal Auto New Business Application" />
+    <artifact type="tdf" resourceId="endorsePersauto.xml" title="Personal Auto Endorsement" />
+    <artifact type="tdf" resourceId="renewPersauto.xml" title="Personal Auto Renewal" />
+    <artifact type="tdf" resourceId="persautoQuickQuote.xml" title="Personal Auto Quick Quote Application" />
+    <artifact type="pageLibrary" resourceId="persautoCommons.xml" title="PersAuto Common Page Library" />
+    <artifact type="view" resourceId="persautoViews.xml" title="Personal Auto Views" />
+    <artifact type="pdfLayout" resourceId="ACORD_90MA_LAYOUT.xml" title="Acord 90 Layout" />
+    <artifact type="pdf" resourceId="acord90MA.pdf" title="ACORD_90_MA_FORM" description="Acord 90 MA PDF" />
+    <artifact type="xarcRule" resourceId="agencyApplicantInformationPage.xml" title="Personal Auto Rules" description="Personal Auto Rules" />
+    <artifact type="acordWorkItemMap" resourceId="persauto_workitem_map.xml" title="Acord to work item mapping for PersAuto" description="Acord to work item mapping for persauto" />
+    <artifact resourceId="paWorkItemAssistant.xml" type="workItemAssistant" description="" title="PA WorkItemAssistant" />
+    <dependency version="5.0.0.0" productRefType="shared" />
+  </product>
+  <product type="WORK" version="5.0.0.0" path="workerscomp" title="Workers Compensation">
+    <artifact type="tdf" resourceId="workerscomp.xml" title="New Business Application" />
+    <artifact type="tdf" resourceId="endorseworkerscomp.xml" title="Workers Comp Endorsement" />
+    <artifact type="tdf" resourceId="renewworkerscomp.xml" title="Workers Comp Renewal" />
+    <artifact type="tdf" resourceId="workerscompQuickQuote.xml" title="Workers Comp Quick Quote" />
+    <artifact type="pageLibrary" resourceId="workerscompCommons.xml" title="Workers Comp Common Page Library" />
+    <artifact type="propertyFile" resourceId="workerscomp.properties" title="Properties" />
+    <artifact type="optionList" resourceId="workersCompCodeListRef.xml" description="Workers Comp Code Lists" title="Workers Comp Code Lists" />
+    <artifact type="view" resourceId="workersCompViews.xml" title="Workers Comp Views" />
+    <artifact type="behavior" resourceId="workersCompBehavior.xml" title="Dynamic Behaviors for new business" />
+    <artifact type="behavior" resourceId="workersCompQQBehavior.xml" title="Dynamic Behaviors for Quick Quote" />
+    <artifact type="pdfLayout" resourceId="ACORD_130_LAYOUT.xml" title="Acord 130 PDF layout" />
+    <artifact type="pdf" resourceId="Acord130.pdf" title="Acord 130" description="Acord 130" />
+    <artifact type="pdfLayout" resourceId="ACORD_130FL_LAYOUT.xml" title="Acord 130 PDF FL layout" />
+    <artifact type="pdf" resourceId="Acord130FL.pdf" title="Acord 130" description="Acord 130 FL" />
+    <artifact type="acordWorkItemMap" resourceId="workerscomp.xml" title="Acord to work item mapping for Workers Comp" description="Acord to work item mapping for Workers Comp" />
+    <artifact type="xarcRule" resourceId="applicantInfo.xml" title="WC Applicant Info Rules" description="WC Applicant Info Rules" />
+    <artifact type="xarcRule" resourceId="wcRatingLocationRules.xml" title="WC Location Validations" description="WC Location Validations" />
+    <artifact type="transformer" resourceId="wc_transformers.xml" title="Worker's Compensation Transformations" description="Worker's Compensation Transformations" />
+    <artifact resourceId="workItemAssistant.xml" type="workItemAssistant" description="" title="WC WorkItemAssistant" />
+    <dependency version="5.0.0.0" productRefType="shared" />
+    <dependency version="5.0.0.0" productRefType="commercial" />
+  </product>
+ 
+</productDatabase>
+

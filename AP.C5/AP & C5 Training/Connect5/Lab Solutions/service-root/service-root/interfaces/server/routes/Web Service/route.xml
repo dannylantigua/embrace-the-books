@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Route xmlns="http://www.pilotfishtechnology.com/eipr/RouteSpec" debuggingTrace="false" debuggingTracePath="" logTransactionContent="true" transactionTimeToLive="300000">
+  <RouteMetadata />
+  <RoutingModule class="com.pilotfish.eip.modules.internal.NullRoutingModule" />
+  <Source name="System Unnamed">
+    <FormatProfile name="Relay (System Format)" />
+    <Listener class="com.pilotfish.eip.modules.http.HttpPostListener" name="server.Web Service.HTTP Post Listener">
+      <ModuleConfig>
+        <IS_TRIGGERABLE_LISTENER>false</IS_TRIGGERABLE_LISTENER>
+        <CLIAllowed>false</CLIAllowed>
+        <RESTART_ON_ERROR_TAG>false</RESTART_ON_ERROR_TAG>
+        <RequestPath>webservice</RequestPath>
+        <Timeout>300</Timeout>
+        <TimeoutHandlingMechanism>Send timeout message</TimeoutHandlingMechanism>
+        <Synchronous>true</Synchronous>
+        <RequireSSL>false</RequireSSL>
+        <HTTPHeaders>[eip_pair:Content-Type:eip_name:text/xml;charset=UTF-8:eip_value]</HTTPHeaders>
+        <WsdlFile />
+        <ValidateAtListenerLevel>false</ValidateAtListenerLevel>
+      </ModuleConfig>
+    </Listener>
+  </Source>
+  <Target name="System Unnamed">
+    <FormatProfile name="Relay (System Format)" />
+    <Transport class="com.pilotfish.eip.modules.internal.SynchronousResponseTransport" name="server.Web Service.Synchronous Response Transport" retries="1" />
+  </Target>
+</Route>
+

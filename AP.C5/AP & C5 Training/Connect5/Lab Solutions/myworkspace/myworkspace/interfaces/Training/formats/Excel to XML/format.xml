@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Format xmlns="http://www.pilotfishtechnology.com/eipr/RouteSpec" name="Excel to XML">
+  <TransformationModule class="com.pilotfish.eip.modules.internal.RelayTransformationModule" />
+  <XSLT>
+    <ToXML>People A to People C.xslt</ToXML>
+    <FromXML />
+    <XSLTVersion>1.0</XSLTVersion>
+    <XSLTEngine>XALAN_COMPILED</XSLTEngine>
+    <CacheXSLTToXML>true</CacheXSLTToXML>
+    <CacheXSLTFromXML>false</CacheXSLTFromXML>
+  </XSLT>
+  <FormatMetadata />
+  <SplitControl xmlns="http://www.pilotfishtechnology.com/eip/FormatSpec">
+    <JoinModule xmlns="http://www.pilotfishtechnology.com/eipr/RouteSpec" class="com.pilotfish.eip.modules.internal.NullJoinModule" />
+    <ForkModule xmlns="http://www.pilotfishtechnology.com/eipr/RouteSpec" class="com.agencyport.substrate.module.APXPathForkModule">
+      <ModuleConfig>
+        <ForkingXPath>//XCSExcelSheet</ForkingXPath>
+        <ExceptionOnNoNodes>false</ExceptionOnNoNodes>
+        <KeepForkingSource>false</KeepForkingSource>
+      </ModuleConfig>
+    </ForkModule>
+  </SplitControl>
+</Format>
+

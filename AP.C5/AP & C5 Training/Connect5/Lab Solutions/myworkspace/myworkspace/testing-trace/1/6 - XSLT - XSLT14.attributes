@@ -1,0 +1,11 @@
+com.pilotfish.PollingCycleID: 2
+com.pilotfish.eip.testingFlag: com.pilotfish.eip.gui.console.testing.TestMetadata@75c338e
+com.pilotfish.SourceFile: t:\in\people.xls
+com.pilotfish.PollingCycleSize: 1
+com.pilotfish.FileName: people
+com.pilotfish.FileExtension: xls
+com.pilotfish.eip.transactionHistory: com.pilotfish.eip.transact.TransactionHistory@363cb368
+com.pilotfish.eip.currentPathKey: java.lang.Object@42a37a4b
+com.pilotfish.FileSize: 56320
+com.pilotfish.eip.OriginatingTransactionID: 1
+testingMode.forkingID: 1

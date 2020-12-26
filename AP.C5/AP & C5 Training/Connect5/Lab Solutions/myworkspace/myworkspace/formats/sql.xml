@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SQLXML xmlns="http://pilotfish.sqlxml">
+<Select into="records">
+<PEOPLE>
+<PERSON_ID />
+<FIRST_NAME />
+<MIDDLE_NAME />
+<LAST_NAME />
+<GENDER />
+<SSN />
+<BIRTHDATE />
+<OCCUPATION />
+<VEHICLE_MAKE />
+<VEHICLE_MODEL />
+<ADDRESS_LINE_1 />
+<ADDRESS_LINE_2 />
+<CITY /><STATE />
+<ZIP />
+</PEOPLE></Select><XMLOut var="records"/>
+</SQLXML>

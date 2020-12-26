@@ -1,0 +1,11 @@
+com.pilotfish.PollingCycleID: 1
+com.pilotfish.eip.testingFlag: com.pilotfish.eip.gui.console.testing.TestMetadata@2d6896f7
+com.pilotfish.SourceFile: t:\in\LabMaterials.lnk
+com.pilotfish.PollingCycleSize: 1
+com.pilotfish.FileName: LabMaterials
+com.pilotfish.FileExtension: lnk
+com.pilotfish.eip.transactionHistory: com.pilotfish.eip.transact.TransactionHistory@2d8f496b
+com.pilotfish.eip.currentPathKey: java.lang.Object@1a1d272b
+com.pilotfish.FileSize: 809
+com.pilotfish.eip.OriginatingTransactionID: 1
+testingMode.forkingID: 1

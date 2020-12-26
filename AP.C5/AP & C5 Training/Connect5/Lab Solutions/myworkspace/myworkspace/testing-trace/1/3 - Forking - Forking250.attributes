@@ -1,0 +1,11 @@
+com.pilotfish.PollingCycleID: 1
+com.pilotfish.eip.testingFlag: com.pilotfish.eip.gui.console.testing.TestMetadata@bdfa7d8
+com.pilotfish.SourceFile: t:\in\farm_fixed.txt
+com.pilotfish.PollingCycleSize: 1
+com.pilotfish.FileName: farm_fixed
+com.pilotfish.FileExtension: txt
+com.pilotfish.eip.transactionHistory: com.pilotfish.eip.transact.TransactionHistory@8845bff
+com.pilotfish.eip.currentPathKey: java.lang.Object@759368f8
+com.pilotfish.FileSize: 239
+com.pilotfish.eip.OriginatingTransactionID: 1
+testingMode.forkingID: 1

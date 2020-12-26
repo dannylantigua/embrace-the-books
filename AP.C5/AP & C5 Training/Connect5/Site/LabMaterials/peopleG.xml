@@ -1,0 +1,48 @@
+<People count="100">
+	<Female id="1">
+		<FullName>Cinderalla B Jacquiline</FullName>
+		<GUID></GUID>
+		<Gender>Female</Gender>
+		<SSN>408-13-7134</SSN>
+		<BirthDate>1-22-1964</BirthDate>
+		<Occupation>Long distance operator</Occupation>
+		<Vehicle>
+			<Make>BUICK</Make>
+			<Model>PARK AVENUE</Model>
+			<Year />
+		</Vehicle>
+		<Address>
+			<Line1>2256 E Aurelio St</Line1>
+			<City>Bluewater</City>
+			<State>NM</State>
+			<Zip>87005</Zip>
+		</Address>
+		<Neighbors>
+			<Neighbor />
+			<Neighbor />
+		</Neighbors>
+	</Female>
+	<Male id="2">
+		<FullName>Conrad P Freddie</FullName>
+		<GUID></GUID>
+		<Gender>Male</Gender>
+		<SSN>754-66-6371</SSN>
+		<BirthDate>3-2-1946</BirthDate>
+		<Occupation>De-icer element winder</Occupation>
+		<Vehicle>
+			<Make>ISUZU</Make>
+			<Model>TROOPER II</Model>
+			<Year />
+		</Vehicle>
+		<Address>
+			<Line1>6788 E Kevin Blvd</Line1>
+			<City>Tatums</City>
+			<State>OK</State>
+			<Zip>73487</Zip>
+		</Address>
+		<Neighbors>
+			<Neighbor />
+			<Neighbor />
+		</Neighbors>
+	</Male>
+</People>

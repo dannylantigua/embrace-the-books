@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Route xmlns="http://www.pilotfishtechnology.com/eipr/RouteSpec" debuggingTrace="false" debuggingTracePath="" logTransactionContent="true" transactionTimeToLive="300000">
+  <RouteMetadata />
+  <RoutingModule class="com.pilotfish.eip.modules.internal.NullRoutingModule" />
+  <Source name="System Unnamed">
+    <FormatProfile name="Relay (System Format)" />
+    <Listener class="com.pilotfish.eip.modules.file.DirectoryListener" name="Training.BASIC.Directory Listener">
+      <ModuleConfig>
+        <IS_TRIGGERABLE_LISTENER>false</IS_TRIGGERABLE_LISTENER>
+        <CLIAllowed>false</CLIAllowed>
+        <RESTART_ON_ERROR_TAG>false</RESTART_ON_ERROR_TAG>
+        <PollingInterval>5</PollingInterval>
+        <PollingDirectory>t:\in</PollingDirectory>
+        <FileNameRestriction>people</FileNameRestriction>
+        <FileExtensionRestriction>xml</FileExtensionRestriction>
+        <UseFullFilePath>Disabled</UseFullFilePath>
+        <FullPathToFile />
+        <PostProcessOperation>Delete</PostProcessOperation>
+        <TargetDirectory />
+        <Tokenizers />
+        <SerializedTransactionsTag>250</SerializedTransactionsTag>
+        <SubFolderIterationTag>false</SubFolderIterationTag>
+        <SchedulerStartTag />
+        <SchedulerEndTag />
+      </ModuleConfig>
+    </Listener>
+  </Source>
+  <Target name="System Unnamed">
+    <FormatProfile name="People XML to Inserts" />
+    <Transport class="com.pilotfish.eip.modules.db.DatabaseSqlTransport" name="Training.BASIC.Directory Transport" retries="1">
+      <ModuleConfig>
+        <UserName>sa</UserName>
+        <Password />
+        <UseDataSource>false</UseDataSource>
+        <DataSource />
+        <JdbcDriver>org.h2.Driver</JdbcDriver>
+        <JdbcURL>jdbc:h2:tcp://localhost/~/test</JdbcURL>
+        <KeepConnection>false</KeepConnection>
+        <Timeout>600</Timeout>
+        <RestrictMetaDataToCatalog />
+        <RestrictMetaDataToSchema />
+        <RestrictMetaDataToTable>%</RestrictMetaDataToTable>
+        <InputFile />
+        <CallbackListenerName />
+        <JDBCProperties>null</JDBCProperties>
+      </ModuleConfig>
+    </Transport>
+  </Target>
+  <Target name="System Unnamed">
+    <FormatProfile name="People XML to Updates" />
+    <Transport class="com.pilotfish.eip.modules.db.DatabaseSqlTransport" name="Training.Using Database Insert and Update.Database SQL Transport Transport" retries="1">
+      <ModuleConfig>
+        <UserName>sa</UserName>
+        <Password />
+        <UseDataSource>false</UseDataSource>
+        <DataSource />
+        <JdbcDriver>org.h2.Driver</JdbcDriver>
+        <JdbcURL>jdbc:h2:tcp://localhost/~/test</JdbcURL>
+        <KeepConnection>false</KeepConnection>
+        <Timeout>600</Timeout>
+        <RestrictMetaDataToCatalog />
+        <RestrictMetaDataToSchema />
+        <RestrictMetaDataToTable>%</RestrictMetaDataToTable>
+        <InputFile />
+        <CallbackListenerName />
+        <JDBCProperties>null</JDBCProperties>
+      </ModuleConfig>
+    </Transport>
+  </Target>
+</Route>
+

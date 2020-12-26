@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<eclipse-userlibraries version="2">
+    <library name="APSDK5.0.0-5 Runtime" systemlibrary="false">
+        <archive path="/PortalTrainingProject_5.0.0-5/Web Root/WEB-INF/lib/accommon-5.0.0-4.jar"/>
+        <archive path="/PortalTrainingProject_5.0.0-5/Web Root/WEB-INF/lib/apaccount-5.0.0-4.jar"/>
+        <archive path="/PortalTrainingProject_5.0.0-5/Web Root/WEB-INF/lib/apacord-5.0.0-4.jar"/>
+        <archive path="/PortalTrainingProject_5.0.0-5/Web Root/WEB-INF/lib/apbase-5.0.0-4.jar"/>
+        <archive path="/PortalTrainingProject_5.0.0-5/Web Root/WEB-INF/lib/apdashboard-5.0.0-4.jar"/>
+        <archive path="/PortalTrainingProject_5.0.0-5/Web Root/WEB-INF/lib/apresources-5.0.0-4.jar"/>
+        <archive path="/PortalTrainingProject_5.0.0-5/Web Root/WEB-INF/lib/apsecurity-5.0.0-4.jar"/>
+        <archive path="/PortalTrainingProject_5.0.0-5/Web Root/WEB-INF/lib/apsecurityreference-5.0.0-4.jar"/>
+        <archive path="/PortalTrainingProject_5.0.0-5/Web Root/WEB-INF/lib/apwebapp-5.0.0-5-classes.jar"/>
+        <archive path="/PortalTrainingProject_5.0.0-5/Web Root/WEB-INF/lib/apworklist-5.0.0-4.jar"/>
+        <archive path="/PortalTrainingProject_5.0.0-5/Web Root/WEB-INF/lib/jdom2-2.0.5.jar"/>
+    </library>
+</eclipse-userlibraries>

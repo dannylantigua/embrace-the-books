@@ -1,0 +1,5 @@
+com.pilotfish.eip.testingFlag: com.pilotfish.eip.gui.console.testing.TestMetadata@5255b8b
+com.pilotfish.eip.transactionHistory: com.pilotfish.eip.transact.TransactionHistory@48c18608
+com.pilotfish.eip.currentPathKey: java.lang.Object@19469c89
+com.pilotfish.eip.OriginatingTransactionID: 1
+testingMode.forkingID: 1

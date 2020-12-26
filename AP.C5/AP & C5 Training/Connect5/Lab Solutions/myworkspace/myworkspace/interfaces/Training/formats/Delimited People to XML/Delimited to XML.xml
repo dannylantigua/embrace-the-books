@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xtr:TransRoot xmlns:xtr="http://www.pilotfishtechnology.com/XCS/TransformEngine" xmlns:ff="http://www.pilotfishtechnology.com/XCS/TransformEngine/FlatFile">
+	<xtr:HandlerConfig>
+		<xtr:Builder>com.pilotfish.eip.transform.flatfile.RecordDeserializer</xtr:Builder>
+		<xtr:Serializer>com.pilotfish.eip.transform.flatfile.RecordSerializer</xtr:Serializer>
+	</xtr:HandlerConfig>
+	<xtr:Initialization>
+		<xtr:Record delimiter="\n" style="delimited" />
+		<xtr:Field delimiter="|" style="delimited" />
+		<xtr:Direction selected="ToXML" />
+	</xtr:Initialization>
+	<xtr:ModuleRegistry />
+	<xtr:RecordSegment delimiter="\n" name="Person">
+		<xtr:Field delimiter="|" name="First-Name">
+			<ff:Start>1</ff:Start>
+			<ff:End>1</ff:End>
+		</xtr:Field>
+		<xtr:Field delimiter="|" name="Middle-Name">
+			<ff:Start>0</ff:Start>
+			<ff:End>-1</ff:End>
+		</xtr:Field>
+		<xtr:Field delimiter="|" name="Last-Name">
+			<ff:Start>0</ff:Start>
+			<ff:End>-1</ff:End>
+		</xtr:Field>
+		<xtr:Field delimiter="|" name="Gender">
+			<ff:Start>0</ff:Start>
+			<ff:End>-1</ff:End>
+		</xtr:Field>
+		<xtr:Field delimiter="|" name="DOB">
+			<ff:Start>0</ff:Start>
+			<ff:End>-1</ff:End>
+		</xtr:Field>
+		<xtr:Field delimiter="|" name="SSN">
+			<ff:Start>0</ff:Start>
+			<ff:End>-1</ff:End>
+		</xtr:Field>
+		<xtr:Field delimiter="|" name="Occupation">
+			<ff:Start>0</ff:Start>
+			<ff:End>-1</ff:End>
+		</xtr:Field>
+		<xtr:Field delimiter="|" name="Vehicle-Make">
+			<ff:Start>0</ff:Start>
+			<ff:End>-1</ff:End>
+		</xtr:Field>
+		<xtr:Field delimiter="|" name="Vehicle-Model">
+			<ff:Start>0</ff:Start>
+			<ff:End>-1</ff:End>
+		</xtr:Field>
+		<xtr:Field delimiter="|" name="Addr1">
+			<ff:Start>0</ff:Start>
+			<ff:End>-1</ff:End>
+		</xtr:Field>
+		<xtr:Field delimiter="|" name="Addr2">
+			<ff:Start>0</ff:Start>
+			<ff:End>-1</ff:End>
+		</xtr:Field>
+		<xtr:Field delimiter="|" name="City">
+			<ff:Start>0</ff:Start>
+			<ff:End>-1</ff:End>
+		</xtr:Field>
+		<xtr:Field delimiter="|" name="State">
+			<ff:Start>0</ff:Start>
+			<ff:End>-1</ff:End>
+		</xtr:Field>
+		<xtr:Field delimiter="|" name="Zip">
+			<ff:Start>0</ff:Start>
+			<ff:End>-1</ff:End>
+		</xtr:Field>
+	</xtr:RecordSegment>
+</xtr:TransRoot>
+

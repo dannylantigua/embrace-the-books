@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xtr:TransRoot xmlns:xtr="http://www.pilotfishtechnology.com/XCS/TransformEngine" xmlns:ff="http://www.pilotfishtechnology.com/XCS/TransformEngine/FlatFile">
+	<xtr:HandlerConfig>
+		<xtr:Builder>com.pilotfish.eip.transform.flatfile.RecordDeserializer</xtr:Builder>
+		<xtr:Serializer>com.pilotfish.eip.transform.flatfile.RecordSerializer</xtr:Serializer>
+	</xtr:HandlerConfig>
+	<xtr:Initialization>
+		<xtr:Record delimiter="\n" style="delimited" />
+		<xtr:Field style="fixed-width" />
+		<xtr:Direction selected="ToXML" />
+	</xtr:Initialization>
+	<xtr:ModuleRegistry>
+		<xtr:RecordControl class="com.pilotfish.eip.transform.flatfile.FieldRecordControl" name="Animal" />
+	</xtr:ModuleRegistry>
+	<xtr:RecordSegment delimiter="\n" name="Animal">
+		<xtr:Field name="RecordTyoe">
+			<ff:Start>1</ff:Start>
+			<ff:End>3</ff:End>
+		</xtr:Field>
+		<xtr:Field name="ID">
+			<ff:Start>4</ff:Start>
+			<ff:End>8</ff:End>
+		</xtr:Field>
+		<xtr:Field name="Type">
+			<ff:Start>9</ff:Start>
+			<ff:End>18</ff:End>
+		</xtr:Field>
+		<xtr:Field name="Name">
+			<ff:Start>19</ff:Start>
+			<ff:End>28</ff:End>
+		</xtr:Field>
+		<xtr:Field name="Flavor">
+			<ff:Start>29</ff:Start>
+			<ff:End>33</ff:End>
+		</xtr:Field>
+		<xtr:Field name="ENDLINE">
+			<ff:Start>34</ff:Start>
+			<ff:End>35</ff:End>
+		</xtr:Field>
+	</xtr:RecordSegment>
+	<xtr:RecordSegment delimiter="\n" name="Building">
+		<xtr:Field name="RecordType">
+			<ff:Start>1</ff:Start>
+			<ff:End>3</ff:End>
+		</xtr:Field>
+		<xtr:Field name="ID">
+			<ff:Start>4</ff:Start>
+			<ff:End>8</ff:End>
+		</xtr:Field>
+		<xtr:Field name="Type">
+			<ff:Start>9</ff:Start>
+			<ff:End>18</ff:End>
+		</xtr:Field>
+		<xtr:Field name="Value">
+			<ff:Start>19</ff:Start>
+			<ff:End>28</ff:End>
+		</xtr:Field>
+		<xtr:Field name="ENDLINE">
+			<ff:Start>29</ff:Start>
+			<ff:End>30</ff:End>
+		</xtr:Field>
+	</xtr:RecordSegment>
+	<xtr:RecordSegment delimiter="\n" name="Employee">
+		<xtr:Field name="RecordType">
+			<ff:Start>1</ff:Start>
+			<ff:End>3</ff:End>
+		</xtr:Field>
+		<xtr:Field name="ID">
+			<ff:Start>4</ff:Start>
+			<ff:End>8</ff:End>
+		</xtr:Field>
+		<xtr:Field name="Type">
+			<ff:Start>9</ff:Start>
+			<ff:End>18</ff:End>
+		</xtr:Field>
+		<xtr:Field name="Salary">
+			<ff:Start>19</ff:Start>
+			<ff:End>26</ff:End>
+		</xtr:Field>
+		<xtr:Field name="ENDLINE">
+			<ff:Start>27</ff:Start>
+			<ff:End>28</ff:End>
+		</xtr:Field>
+	</xtr:RecordSegment>
+	<xtr:RecordSegment delimiter="\n" name="Unknown">
+		<xtr:Field name="Unknown">
+			<ff:Start>1</ff:Start>
+			<ff:End>10</ff:End>
+		</xtr:Field>
+	</xtr:RecordSegment>
+	<xtr:RecordControl name="Animal">
+		<ff:ControlField name="RecordType">
+			<ff:Start>1</ff:Start>
+			<ff:End>3</ff:End>
+		</ff:ControlField>
+		<ff:Case>
+			<ff:Test Occurs="65538" field="RecordType" value="ANI" />
+			<ff:Record ref="Animal" />
+			<ff:Occurs>2147483647</ff:Occurs>
+		</ff:Case>
+		<ff:Case>
+			<ff:Test Occurs="65538" field="RecordType" value="BUI" />
+			<ff:Record ref="Building" />
+			<ff:Occurs>2147483647</ff:Occurs>
+		</ff:Case>
+		<ff:Case>
+			<ff:Test Occurs="65538" field="RecordType" value="EMP" />
+			<ff:Record ref="Employee" />
+			<ff:Occurs>2147483647</ff:Occurs>
+		</ff:Case>
+		<ff:DefaultCase>
+			<ff:Record ref="Unknown" />
+		</ff:DefaultCase>
+	</xtr:RecordControl>
+</xtr:TransRoot>
+
