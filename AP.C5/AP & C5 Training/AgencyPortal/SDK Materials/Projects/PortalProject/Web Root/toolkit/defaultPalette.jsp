@@ -1,1 +1,0 @@
-<div id="${param.artifactId}_palette" style="" class="palette"></div>
